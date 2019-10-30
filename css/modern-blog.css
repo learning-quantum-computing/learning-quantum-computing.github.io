@@ -319,11 +319,38 @@ a:focus {
 	margin: 0 .5em;
 }
 
+.author {
+	margin: 2em 0 0;
+}
+
+.author a {
+	display: inline-block;
+	margin: 0 .5em;
+}
+
 .social {
 	margin: 2em 0 0;
 }
 
 .social a {
+	display: inline-block;
+	margin: 0 .5em;
+}
+
+.special-thanks-to-institutions {
+	margin: 2em 0 0;
+}
+
+.special-thanks-to-institutions a {
+	display: inline-block;
+	margin: 0 .5em;
+}
+
+.special-thanks-to-professors-researchers {
+	margin: 2em 0 0;
+}
+
+.special-thanks-to-professors-researchers a {
 	display: inline-block;
 	margin: 0 .5em;
 }
