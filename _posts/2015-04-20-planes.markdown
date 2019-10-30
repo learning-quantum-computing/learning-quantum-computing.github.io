@@ -2,7 +2,7 @@
 title:  "Exploring the Quantum Computing"
 subtitle: "Core 6"
 author: "Rúben André Barreiro"
-avatar: "img/authors/wferr.png"
+avatar: "img/authors/protrait-2d.png"
 image: "img/a.jpg"
 date:   2015-04-20 12:12:12
 ---

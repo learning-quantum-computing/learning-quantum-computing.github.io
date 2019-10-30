@@ -2,7 +2,7 @@
 title:  "Practicing the Quantum Computing"
 subtitle: "Core 4"
 author: "Rúben André Barreiro"
-avatar: "img/authors/wferr.png"
+avatar: "img/authors/protrait-2d.png"
 image: "img/c.jpg"
 date:   2015-04-22 12:12:12
 ---
