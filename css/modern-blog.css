@@ -319,6 +319,15 @@ a:focus {
 	margin: 0 .5em;
 }
 
+.social {
+	margin: 2em 0 0;
+}
+
+.social a {
+	display: inline-block;
+	margin: 0 .5em;
+}
+
 .heart {
 	color: #e25555;
 }
