@@ -1,7 +1,7 @@
 ---
-title:  "Nobody else was around."
-subtitle: "A Beautiful shot during the night."
-author: "Wferr"
+title:  "Practicing the Advanced Quantum Computing"
+subtitle: "Core 5"
+author: "Rúben André Barreiro"
 avatar: "img/authors/wferr.png"
 image: "img/b.jpg"
 date:   2015-04-21 12:12:12
