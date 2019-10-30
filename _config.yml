@@ -1,7 +1,7 @@
 # Site settings
-title: Modern Blog
-description: Modern-Blog A Elegant template for Jekyll
-keywords: Modern, Blogging, Fun
-author: Wferr
+title: Learning Quantum Computing
+description: A new era of Computing!!!
+keywords: Quantum, Computing, IT, Technology, Science, Engineering, Programming, Tutorials, Blog, Posts
+author: Rúben André Barreiro
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
