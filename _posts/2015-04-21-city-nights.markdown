@@ -3,7 +3,7 @@ title:  "Practicing the Advanced Quantum Computing"
 subtitle: "Core 5"
 author: "Rúben André Barreiro"
 avatar: "img/authors/protrait-2d.png"
-image: "img/b.jpg"
+image: "imgs/cores-backgrounds/JPGs/learning-computing-core-5.jpg"
 date:   2015-04-21 12:12:12
 ---
 

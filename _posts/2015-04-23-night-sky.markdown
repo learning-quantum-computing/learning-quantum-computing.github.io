@@ -3,7 +3,7 @@ title:  "Discovering the Quantum Computing"
 subtitle: "Core 3"
 author: "Rúben André Barreiro"
 avatar: "img/authors/protrait-2d.png"
-image: "img/d.jpg"
+image: "imgs/cores-backgrounds/JPGs/learning-computing-core-3.jpg"
 date:   2015-04-23 12:12:12
 ---
 
