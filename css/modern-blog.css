@@ -222,6 +222,15 @@ body.body--hidden .header {
 	opacity: 0;
 }
 
+.footer{
+	-webkit-transition: opacity 300ms ease-in-out;
+	transition: opacity 300ms ease-in-out;
+}
+
+body.body--hidden .footer {
+	opacity: 0;
+}
+
 .header{
 	-webkit-transition: opacity 300ms ease-in-out;
 	transition: opacity 300ms ease-in-out;
@@ -277,7 +286,29 @@ a:focus {
 	padding: .5em 0 1em;
 	color: #999;
 }
-/* Top Navigation Style */
+
+/* Footer */
+
+.footer {
+	padding: 2em 1em;
+	text-align: center;
+}
+
+.footer h1 {
+	font-size: 3em;
+	font-weight: 400;
+	line-height: 1.2;
+	margin: .5em 0 0;
+}
+
+.footer h1 span {
+	font-size: .45em;
+	display: block;
+	padding: .5em 0 1em;
+	color: #999;
+}
+
+/* Bottom Navigation Style */
 
 .links {
 	margin: 2em 0 0;
@@ -305,6 +336,19 @@ a:focus {
 
 @media screen and (max-width: 40em) {
 	.header h1 {
+		font-size: 2.4em;
+		line-height: 1.2;
+	}
+}
+
+@media screen and (max-width: 50em) {
+	.footer {
+		padding: 3em 10% 4em;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.footer h1 {
 		font-size: 2.4em;
 		line-height: 1.2;
 	}
