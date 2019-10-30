@@ -1,6 +1,6 @@
 ---
-title:  "Welcome to the Quantum World"
-subtitle: "Introduction to Quantum"
+title:  "Introduction to Quantum"
+subtitle: "Core 1"
 author: "Rúben André Barreiro"
 avatar: "img/authors/wferr.png"
 image: "img/f.jpg"
