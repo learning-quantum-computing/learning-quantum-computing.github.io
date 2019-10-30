@@ -319,6 +319,9 @@ a:focus {
 	margin: 0 .5em;
 }
 
+.heart {
+	color: #e25555;
+}
 /* cards wrapper and close btn */
 
 .wrapper {
