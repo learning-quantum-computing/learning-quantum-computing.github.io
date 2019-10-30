@@ -328,6 +328,15 @@ a:focus {
 	margin: 0 .5em;
 }
 
+.contact-me {
+	margin: 2em 0 0;
+}
+
+.contact-me a {
+	display: inline-block;
+	margin: 0 .5em;
+}
+
 .social {
 	margin: 2em 0 0;
 }
