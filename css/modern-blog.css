@@ -346,11 +346,20 @@ a:focus {
 	margin: 0 .5em;
 }
 
-.special-thanks-to-institutions {
+.special-thanks-to-academic-institutions {
 	margin: 2em 0 0;
 }
 
-.special-thanks-to-institutions a {
+.special-thanks-to-academic-institutions a {
+	display: inline-block;
+	margin: 0 .5em;
+}
+
+.special-thanks-to-industrial-institutions {
+	margin: 2em 0 0;
+}
+
+.special-thanks-to-industrial-institutions a {
 	display: inline-block;
 	margin: 0 .5em;
 }
