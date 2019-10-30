@@ -3,7 +3,7 @@ title:  "Introduction to Quantum"
 subtitle: "Core 1"
 author: "Rúben André Barreiro"
 avatar: "img/authors/protrait-2d.png"
-image: "imgs/cores-backgrounds/JPGs/learning-computing-core-6.jpg"
+image: "imgs/cores-backgrounds/JPGs/learning-computing-core-1.jpg"
 date:   2015-04-25 12:12:12
 ---
 
