@@ -322,6 +322,10 @@ a:focus {
 .heart {
 	color: #e25555;
 }
+
+.at {
+	color: #edd666;
+}
 /* cards wrapper and close btn */
 
 .wrapper {
