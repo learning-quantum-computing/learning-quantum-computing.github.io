@@ -9,13 +9,13 @@ date:   2019-11-08 22:00:00
 
 ### 📂 List of Contents:
 > * 📅 **_Week 2 - What is Quantum Computing? (Beyond the Quantum Power):_**
->  * Philosophical Introduction
->  * Moore Law
->  * Motivation
->  * Definition
->  * How it Works?
->  * Classic Computing vs. Quantum Computing
->  * Relationship with Computational Complexity Theory
+>   * Philosophical Introduction
+>   * Moore Law
+>   * Motivation
+>   * Definition
+>   * How it Works?
+>   * Classic Computing vs. Quantum Computing
+>   * Relationship with Computational Complexity Theory
 
 ```
 ⚠️ Notes:
