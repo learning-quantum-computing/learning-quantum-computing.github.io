@@ -7,8 +7,7 @@ image: "imgs/cores-backgrounds/JPGs/learning-computing-core-2.jpg"
 date:   2019-11-08 22:00:00
 ---
 
-### Core 2 - Introduction to Quantum Computing
-#### Contents of the Core:
+### List of Contents:
 * 📅 **_Week 2 - What is Quantum Computing? (Beyond the Quantum Power):_**
   * Philosophical Introduction
   * Moore Law
