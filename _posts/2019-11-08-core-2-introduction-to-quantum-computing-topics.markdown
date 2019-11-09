@@ -7,15 +7,21 @@ image: "imgs/cores-backgrounds/JPGs/learning-computing-core-2.jpg"
 date:   2019-11-08 22:00:00
 ---
 
-### List of Contents:
-* 📅 **_Week 2 - What is Quantum Computing? (Beyond the Quantum Power):_**
-  * Philosophical Introduction
-  * Moore Law
-  * Motivation
-  * Definition
-  * How it Works?
-  * Classic Computing vs. Quantum Computing
-  * Relationship with Computational Complexity Theory
+### 📂 List of Contents:
+> * 📅 **_Week 2 - What is Quantum Computing? (Beyond the Quantum Power):_**
+>  * Philosophical Introduction
+>  * Moore Law
+>  * Motivation
+>  * Definition
+>  * How it Works?
+>  * Classic Computing vs. Quantum Computing
+>  * Relationship with Computational Complexity Theory
+
+```
+⚠️ Notes:
+    - This week will contain only theoretical lectures
+```
+
 
 ### Aliquam suscipit.
 Cras eget nisl accumsan, porta nisl in, egestas sapien. Vestibulum gravida nulla sed facilisis tempor. Suspendisse maximus nisi sit amet velit sodales fringilla. Vivamus luctus risus eget dui consectetur porttitor. Maecenas ut ultrices orci. Maecenas mollis est eu sodales mollis. Nulla facilisi. Suspendisse eros arcu, elementum sed sem eu, pharetra rhoncus odio. Proin nec tincidunt velit. Cras nisl augue, faucibus sed mauris in, vestibulum mollis nisl. Nam id libero ultrices, consequat ex vitae, convallis nulla.
