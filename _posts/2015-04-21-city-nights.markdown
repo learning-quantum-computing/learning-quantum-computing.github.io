@@ -1,5 +1,5 @@
 ---
-title:  "Practicing the Advanced Quantum Computing"
+title:  "Solving with the Quantum Computing"
 subtitle: "Core 5"
 author: "Rúben André Barreiro"
 avatar: "imgs/authors/protrait-2d.png"
