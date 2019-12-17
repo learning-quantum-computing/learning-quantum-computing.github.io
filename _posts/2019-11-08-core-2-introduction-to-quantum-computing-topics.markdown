@@ -7,30 +7,6 @@ image: "imgs/cores-backgrounds/JPGs/learning-computing-core-2.jpg"
 date:   2019-11-08 22:00:00
 ---
 
-<style>
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: green; 
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #00c200; 
-}
-</style>
-
 ### 📂 List of Contents:
 > * 📅 **_Week 2 - What is Quantum Computing? (Beyond the Quantum Power):_**
 >   * Philosophical Introduction
