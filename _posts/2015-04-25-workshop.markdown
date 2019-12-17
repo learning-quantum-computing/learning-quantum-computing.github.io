@@ -21,13 +21,13 @@ date:   2015-04-25 12:12:12
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: red; 
+  background: yellow; 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
+  background: #ffff00; 
 }
 </style>
 
