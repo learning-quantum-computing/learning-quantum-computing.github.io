@@ -11,7 +11,7 @@
 }
 
 .card__container {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	overflow-x: hidden;
@@ -42,7 +42,7 @@
 /* Fix IE */
 
 .card__container--fix-image .card__image {
-	position: fixed;
+	position: absolute;
 }
 
 .card__content {
