@@ -8,25 +8,26 @@ date:   2020-02-28 22:00:00
 ---
 
 ### 📂 List of Contents:
-> * 📅 **_Week 5 - The Fundamentals of Quantum Computing: From Quantum Physics/Mechanics to Computing_**
->   * Quantum Superposition
->   * Examples of Quantum Superposition
->       * The Schrodinger’s Cat Experiment
+> * 📅 **_Week 5 - The Fundamentals of Quantum Computing:
+>   * From Quantum Physics/Mechanics to Computing_**
+>       * Quantum Superposition
+>       * Examples of Quantum Superposition
+>           * The Schrodinger’s Cat Experiment
 >           * The Folk Tale of the Rooster of Barcelos
->       * Portuguese Expressions and Slangs
->       * Portuguese Oxymorphs
->       * The Persona's Dilemma of Anakin Skywalker/Darth Vader
->       * Pirates of the Caribbean’s Dillema, the Curse of the Black Pearl
->       * Avengers’ Quest for Inifinity Stones, Iron Man vs. Thanos
->       * The Alter Egos of Bruce Wayne, Billionaire Entrepreneur/Superhero
->       * Pottermore Sorting Hat Test, the Harry Potter’s Dilemma
->       * Fawkes, the Harry Potter’s Phoenix
->       * The Night King’s conversion of Living Beings to White Walkers
->       * The Love’s/Throne’s Dilemma of Daenerys Targaryen and Jon Snow
->       * The Cylinders’ Dilemma (2D Plane Views/Representations)
->       * The Hyperbolic Paraboloids’ Dilemma (Geometric Solids or Snack Chips)
->       * My Future Perspectives/Plans(Academic’s/Industrial’s Dilemma)
->       * My Master Thesis’ Theme/Subject(The Biggest Dilemma of My Life)
+>           * Portuguese Expressions and Slangs
+>           * Portuguese Oxymorphs
+>           * The Persona's Dilemma of Anakin Skywalker/Darth Vader
+>           * Pirates of the Caribbean’s Dillema, the Curse of the Black Pearl
+>           * Avengers’ Quest for Inifinity Stones, Iron Man vs. Thanos
+>           * The Alter Egos of Bruce Wayne, Billionaire Entrepreneur/Superhero
+>           * Pottermore Sorting Hat Test, the Harry Potter’s Dilemma
+>           * Fawkes, the Harry Potter’s Phoenix
+>           * The Night King’s conversion of Living Beings to White Walkers
+>           * The Love’s/Throne’s Dilemma of Daenerys Targaryen and Jon Snow
+>           * The Cylinders’ Dilemma (2D Plane Views/Representations)
+>           * The Hyperbolic Paraboloids’ Dilemma (Geometric Solids or Snack Chips)
+>           * My Future Perspectives/Plans(Academic’s/Industrial’s Dilemma)
+>           * My Master Thesis’ Theme/Subject(The Biggest Dilemma of My Life)
 
 ```
 ⚠️ Notes:
