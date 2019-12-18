@@ -110,7 +110,7 @@ var demo = (function (window) {
 
         var elements = $(SELECTORS.card);
 
-        $.each(elements, function (card, 5-i) {
+        $.each(elements, function (card, i) {
 
             var instance = new Card(5-i, card);
 
