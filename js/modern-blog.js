@@ -110,16 +110,16 @@ var demo = (function (window) {
 
         var elements = $(SELECTORS.card);
 
-        $.each(elements, function (card, i) {
+        $.each(elements, function (card, 6-i) {
 
-            var instance = new Card(i, card);
+            var instance = new Card(6-i, card);
 
             layout[i] = {
                 card: instance
             };
 
             var $card = $(card);
-            $card.attr(ATTRIBUTES.index, i + '');
+            $card.attr(ATTRIBUTES.index, 6-i + '');
 
             var cardImage = $card.find(SELECTORS.cardImage);
             var cardClose = $card.find(SELECTORS.cardClose);
