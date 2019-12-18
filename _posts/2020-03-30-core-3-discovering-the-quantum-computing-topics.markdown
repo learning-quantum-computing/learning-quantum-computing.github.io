@@ -1,10 +1,10 @@
 ---
-title:  "Introduction to Quantum"
-subtitle: "Core 1"
+title:  "Discovering the Quantum Computing"
+subtitle: "Core 3"
 author: "Rúben André Barreiro"
 avatar: "imgs/authors/protrait-2d.png"
-image: "imgs/cores-backgrounds/JPGs/learning-computing-core-1.jpg"
-date:   2015-04-25 12:12:12
+image: "imgs/cores-backgrounds/JPGs/learning-computing-core-3.jpg"
+date:   2020-03-30 22:00:00
 ---
 
 ### Dolor sit amet?
