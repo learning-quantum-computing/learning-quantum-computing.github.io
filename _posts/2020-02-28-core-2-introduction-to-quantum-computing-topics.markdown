@@ -12,7 +12,7 @@ date:   2020-02-28 22:00:00
 >   * Quantum Superposition
 >   * Examples of Quantum Superposition
 >       * The Schrodinger’s Cat Experiment
->       * The Folk Tale of the Rooster of Barcelos
+>           * The Folk Tale of the Rooster of Barcelos
 >       * Portuguese Expressions and Slangs
 >       * Portuguese Oxymorphs
 >       * The Persona's Dilemma of Anakin Skywalker/Darth Vader
