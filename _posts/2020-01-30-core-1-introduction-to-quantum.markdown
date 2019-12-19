@@ -31,6 +31,7 @@ date:   2020-01-30 22:00:00
 ```
 
 <br>
+***
 <br>
 
 > * 📅 **_Week 1 - What is the Quantum?_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-1-what-is-the-quantum) 
@@ -59,6 +60,7 @@ date:   2020-01-30 22:00:00
 ```
 
 <br>
+***
 <br>
 
 > * 📅 **_Week 2 - What is the Quantum Computing?_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-2-what-is-the-quantum-computing) 
@@ -94,4 +96,5 @@ date:   2020-01-30 22:00:00
 ```
 
 <br>
+***
 <br>
