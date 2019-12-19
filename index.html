@@ -89,6 +89,10 @@ layout: compress
         <div class="pattern pattern--hidden"></div>
         <!-- cards -->
         <div class="wrapper">
+            
+            Console.log(site.posts)
+            
+            
             {% for post in site.posts inverse %}
             <div class="card" data-id="{{ post.id }}">
                 <div class="card__container card__container--closed">
