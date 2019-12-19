@@ -89,7 +89,7 @@ layout: compress
         <div class="pattern pattern--hidden"></div>
         <!-- cards -->
         <div class="wrapper">
-            {% for post in site.posts.reverse %}
+            {% for post in site.posts inverse %}
             <div class="card" data-id="{{ post.id }}">
                 <div class="card__container card__container--closed">
                     <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
@@ -138,7 +138,7 @@ layout: compress
                         <i class="card__btn-close fa fa-times"></i>
                         <div class="card__caption">
                             <h2 class="card__title">Introduction to Quantum</h2>
-                            <p class="card__subtitle">{{ post.subtitle }}</p>
+                            <p class="card__subtitle">Core 1</p>
                         </div>
                         <div class="card__copy">
                             <div class="meta">
