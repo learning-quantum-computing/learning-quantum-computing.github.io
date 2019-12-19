@@ -44,12 +44,13 @@ date:   2020-01-30 22:00:00
 >       * Brief Timeline of QuantumPhysics/Mechanics
 >       * Examples of Mathematical and Algebraic Formulations of Quantum Physics/Mechanics
 >       * From Quantum Physics/Mechanics to Computing Models
-
+\
 ```
 ⚠️ Notes:
     - This week will contain only theoretical lectures
 ```
-
+\
+\
 
 > * 📅 **_Week 2 - What is the Quantum Computing?_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-2-what-is-the-quantum-computing) 
 >   * **_Beyond the Computing Power_**
@@ -77,8 +78,8 @@ date:   2020-01-30 22:00:00
 >       * Final Remarks of the Current State of Computational Complexity Theory
 >       * Final Review of the Current State of Computational Complexity Theory
 >       * Brief Overview of the Current State of Computational Complexity Theory
-
-
+\
+\
 ```
 ⚠️ Notes:
     - This week will contain only theoretical lectures
