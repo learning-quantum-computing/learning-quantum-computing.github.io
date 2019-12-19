@@ -4,7 +4,7 @@ subtitle: "Core 1"
 author: "Rúben André Barreiro"
 avatar: "imgs/authors/protrait-2d.png"
 image: "imgs/cores-backgrounds/JPGs/learning-computing-core-1.jpg"
-date:   2020-01-30 22:00:00
+date:   2019-01-30 22:00:00
 ---
 
 ### 📂 List of Contents:
