@@ -8,7 +8,7 @@ date:   2020-01-30 22:00:00
 ---
 
 <center>
-    <img src="https://rubenandrebarreiro.github.io/learning-quantum-computing/imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-1.jpg" width="1200" height="600">
+    <img src="https://rubenandrebarreiro.github.io/learning-quantum-computing/imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-1.jpg" width="100" height="500">
 </center>
 <br>
 ### 📂 List of Contents
