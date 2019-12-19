@@ -90,11 +90,8 @@ layout: compress
         <!-- cards -->
         <div class="wrapper">
             
-            <script>
-            console.log({% site.posts %})
-            </script>
             
-            {% for post in site.posts inverse %}
+            {% for post in site.posts order reverse %}
             <div class="card" data-id="{{ post.id }}">
                 <div class="card__container card__container--closed">
                     <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
@@ -126,36 +123,6 @@ layout: compress
                 </div>
             </div>
             {% endfor %}
-            <!--<div class="card" data-id="core-1-introduction-to-quantum-topics">
-                <div class="card__container card__container--closed">
-                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
-                         preserveAspectRatio="xMidYMid slice">
-                        <defs>
-                            <clipPath id="core-1-introduction-to-quantum-topics-clip-path">
-                                <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
-                            </clipPath>
-                        </defs>
-                        <image clip-path="url(#core-1-introduction-to-quantum-topics-clip-path)" width="1920" height="1200"
-                               xlink:href="imgs/cores-backgrounds/JPGs/learning-computing-core-1.jpg"></image>
-                    </svg>
-                    <div class="card__content">
-                        <i class="card__btn-close fa fa-times"></i>
-                        <div class="card__caption">
-                            <h2 class="card__title">Introduction to Quantum</h2>
-                            <p class="card__subtitle">Core 1</p>
-                        </div>
-                        <div class="card__copy">
-                            <div class="meta">
-                                <img class="meta__avatar" src="{{ post.avatar }}"/>
-                                <span class="meta__author">{{ post.author }}</span>
-                                <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
-                            </div>
-                            {{ post.content }}
-                        </div>
-                    </div>
-                </div>
-            </div>-->
             <!-- /cards -->
         </div>
     </div>
