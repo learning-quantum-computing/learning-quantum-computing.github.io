@@ -90,8 +90,9 @@ layout: compress
         <!-- cards -->
         <div class="wrapper">
             
-            Console.log(site.posts)
-            
+            <script>
+            console.log(site.posts)
+            </script>
             
             {% for post in site.posts inverse %}
             <div class="card" data-id="{{ post.id }}">
