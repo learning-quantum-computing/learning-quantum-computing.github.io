@@ -8,7 +8,7 @@ date:   2020-01-30 22:00:00
 ---
 
 ### 📂 List of Contents:
-> * 📅 **_Week 0 - Welcome to the Quantum World_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-0-welcome-to-the-quantum-world) :
+> * 📅 **_Week 0 - Welcome to the Quantum World_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-0-welcome-to-the-quantum-world)
 >   * **_Introduction to the Quantum World_**
 >       * Brief Description of this Course
 >       * Course Overview
@@ -19,8 +19,13 @@ date:   2020-01-30 22:00:00
 >       * Credits and Special Thanks
 >       * Proposed Exercises
 
+```
+⚠️ Notes:
+    - This week will contain theoretical lectures and practical exercises
+```
 
-> * 📅 **_Week 1 - What is the Quantum?_**
+
+> * 📅 **_Week 1 - What is the Quantum?_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-1-what-is-the-quantum) 
 >   * **_From Classical to Quantum Physics/Mechanics_**
 >       * Definition of Quantum
 >       * What is the Quantum Physics/Mechanics?
@@ -40,8 +45,13 @@ date:   2020-01-30 22:00:00
 >       * Examples of Mathematical and Algebraic Formulations of Quantum Physics/Mechanics
 >       * From Quantum Physics/Mechanics to Computing Models
 
+```
+⚠️ Notes:
+    - This week will contain only theoretical lectures
+```
 
-> * 📅 **_Week 2 - What is the Quantum Computing?_**
+
+> * 📅 **_Week 2 - What is the Quantum Computing?_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-2-what-is-the-quantum-computing) 
 >   * **_Beyond the Computing Power_**
 >       * Motivations (Part I)
 >           * Introduction
@@ -71,7 +81,7 @@ date:   2020-01-30 22:00:00
 
 ```
 ⚠️ Notes:
-    - This week will contain theoretical lectures and practical exercises
+    - This week will contain only theoretical lectures
 ```
 
 ### Dolor sit amet?
