@@ -33,7 +33,7 @@ body {
 /* Bottom left text */
 .core-bottom-left-description {
   position: absolute;
-  bottom: 8px;
+  bottom: 12px;
   left: 16px;
 }
 
