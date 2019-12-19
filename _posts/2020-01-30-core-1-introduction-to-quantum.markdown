@@ -24,6 +24,8 @@ date:   2020-01-30 22:00:00
     - This week will contain theoretical lectures and practical exercises
 ```
 
+<br>
+<br>
 
 > * 📅 **_Week 1 - What is the Quantum?_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-1-what-is-the-quantum) 
 >   * **_From Classical to Quantum Physics/Mechanics_**
@@ -44,13 +46,14 @@ date:   2020-01-30 22:00:00
 >       * Brief Timeline of QuantumPhysics/Mechanics
 >       * Examples of Mathematical and Algebraic Formulations of Quantum Physics/Mechanics
 >       * From Quantum Physics/Mechanics to Computing Models
-\
+
 ```
 ⚠️ Notes:
     - This week will contain only theoretical lectures
 ```
-\
-\
+
+<br>
+<br>
 
 > * 📅 **_Week 2 - What is the Quantum Computing?_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-2-what-is-the-quantum-computing) 
 >   * **_Beyond the Computing Power_**
@@ -78,12 +81,15 @@ date:   2020-01-30 22:00:00
 >       * Final Remarks of the Current State of Computational Complexity Theory
 >       * Final Review of the Current State of Computational Complexity Theory
 >       * Brief Overview of the Current State of Computational Complexity Theory
-\
-\
+
 ```
 ⚠️ Notes:
     - This week will contain only theoretical lectures
 ```
+
+<br>
+<br>
+
 
 ### Dolor sit amet?
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum non mi non pulvinar. Donec tempus risus vel ex fringilla tempor. Vivamus pharetra non mauris quis fermentum. Vestibulum sed maximus elit, sit amet suscipit orci. Morbi at enim at libero dignissim egestas vel ac nisi. Etiam at lectus a arcu sodales consequat. Aliquam consequat ligula sed purus tincidunt, a ultrices nibh dapibus. Phasellus convallis ipsum nec semper ultricies. In facilisis lacus velit, sit amet lacinia velit blandit id. Nullam ut magna erat. Aliquam sit amet dapibus odio, aliquet tempus tortor. Donec in nisi massa.
