@@ -54,7 +54,7 @@ body {
 /* Bottom right text */
 .core-bottom-right-description-big {
   position: absolute;
-  bottom: 40px;
+  bottom: 48px;
   text-align: right;
   font-size: 24pt;
   right: 16px;
@@ -62,7 +62,7 @@ body {
 
 .core-bottom-right-description-small {
   position: absolute;
-  bottom: 8px;
+  bottom: 12px;
   text-align: right;
   font-size: 12pt;
   right: 16px;
