@@ -11,7 +11,7 @@ date:   2020-01-30 22:00:00
     <img src="https://rubenandrebarreiro.github.io/learning-quantum-computing/imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-1.jpg" width="1000" height="500">
 </center>
 ***
-<br>
+<br />
 ### 📂 List of Contents
 
 > * 📅 **_Week 0 - Welcome to the Quantum World_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-0-welcome-to-the-quantum-world)
@@ -30,9 +30,9 @@ date:   2020-01-30 22:00:00
     - This week will contain theoretical lectures and practical exercises
 ```
 
-<br>
-***
-<br>
+<br />
+<hr>
+<br />
 
 > * 📅 **_Week 1 - What is the Quantum?_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-1-what-is-the-quantum) 
 >   * **_From Classical to Quantum Physics/Mechanics_**
@@ -59,9 +59,9 @@ date:   2020-01-30 22:00:00
     - This week will contain only theoretical lectures
 ```
 
-<br>
-***
-<br>
+<br />
+<hr>
+<br />
 
 > * 📅 **_Week 2 - What is the Quantum Computing?_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-2-what-is-the-quantum-computing) 
 >   * **_Beyond the Computing Power_**
@@ -95,6 +95,6 @@ date:   2020-01-30 22:00:00
     - This week will contain only theoretical lectures
 ```
 
-<br>
-***
-<br>
+<br />
+<hr>
+<br />
