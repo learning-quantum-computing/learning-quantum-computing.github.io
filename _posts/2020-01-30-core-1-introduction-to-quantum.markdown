@@ -10,7 +10,7 @@ date:   2020-01-30 22:00:00
 <center>
     <img src="https://rubenandrebarreiro.github.io/learning-quantum-computing/imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-1.jpg" width="1000" height="500">
 </center>
-<br>
+***
 ### 📂 List of Contents
 
 > * 📅 **_Week 0 - Welcome to the Quantum World_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-0-welcome-to-the-quantum-world)
