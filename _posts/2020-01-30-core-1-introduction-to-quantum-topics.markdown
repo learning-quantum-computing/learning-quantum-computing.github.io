@@ -8,7 +8,7 @@ date:   2020-01-30 22:00:00
 ---
 
 ### 📂 List of Contents:
-> * 📅 **_Week 0 - Welcome to the Quantum World:_**
+> * 📅 [**_Week 0 - Welcome to the Quantum World:_**](course/core-1/week-0-welcome-to-the-quantum-world)
 >   * **_Introduction to Quantum_**
 >       * Brief Description of this Course
 >       * Course Overview
