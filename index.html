@@ -91,7 +91,7 @@ layout: compress
         <div class="wrapper">
             
             
-            {% for post in site.posts order reverse %}
+            {% for post in site.posts reversed %}
             <div class="card" data-id="{{ post.id }}">
                 <div class="card__container card__container--closed">
                     <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
