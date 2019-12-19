@@ -8,7 +8,7 @@ date:   2020-01-30 22:00:00
 ---
 
 <center>
-    <img src="../imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-1.jpg">
+    <img src="/imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-1.jpg">
 </center>
 
 <br>
