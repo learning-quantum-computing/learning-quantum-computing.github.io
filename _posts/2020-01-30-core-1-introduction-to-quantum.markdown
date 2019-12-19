@@ -53,7 +53,7 @@ date:   2020-01-30 22:00:00
 >       * Field Effect Transitors (F.E.T.s)
 >       * Overview of Transistors’ Types
 >       * Motivations (Part II)
->           * Computers’ Prototypes,Storage and Software
+>           * Computers’ Prototypes, Storage and Software
 >           * Internet, Networks and Communications
 >           * New Computers’ Classes and Models
 >           * Retrospectives
