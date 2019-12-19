@@ -7,8 +7,12 @@ image: "imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-1.jpg"
 date:   2020-01-30 22:00:00
 ---
 
-### 📂 List of Contents:
+<img src="/imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-1.jpg"></img>
+
 <br>
+<br>
+
+### 📂 List of Contents
 
 > * 📅 **_Week 0 - Welcome to the Quantum World_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-0-welcome-to-the-quantum-world)
 >   * **_Introduction to the Quantum World_**
