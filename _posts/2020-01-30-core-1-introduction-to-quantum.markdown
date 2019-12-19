@@ -9,7 +9,7 @@ date:   2020-01-30 22:00:00
 
 ### 📂 List of Contents:
 > * 📅 [**_Week 0 - Welcome to the Quantum World:_**](course/core-1/week-0-welcome-to-the-quantum-world)
->   * **_Introduction to Quantum_**
+>   * **_Introduction to the Quantum World_**
 >       * Brief Description of this Course
 >       * Course Overview
 >       * Important and Relevant Bibliography
@@ -18,8 +18,8 @@ date:   2020-01-30 22:00:00
 >       * The Author of this Course
 >       * Credits and Special Thanks
 >       * Proposed Exercises
->
->
+
+
 > * 📅 **_Week 1 - What is the Quantum?_**
 >   * **_From Classical to Quantum Physics/Mechanics_**
 >       * Definition of Quantum
@@ -39,8 +39,8 @@ date:   2020-01-30 22:00:00
 >       * Brief Timeline of QuantumPhysics/Mechanics
 >       * Examples of Mathematical and Algebraic Formulations of Quantum Physics/Mechanics
 >       * From Quantum Physics/Mechanics to Computing Models
->
->
+
+
 > * 📅 **_Week 2 - What is the Quantum Computing?_**
 >   * **_Beyond the Computing Power_**
 >       * Motivations (Part I)
