@@ -8,8 +8,8 @@ date:   2020-02-28 22:00:00
 ---
 
 ### 📂 List of Contents:
-> * 📅 **_Week 5 - The Fundamentals of Quantum Computing:
->   * From Quantum Physics/Mechanics to Computing_**
+> * 📅 **_Week 5 - The Fundamentals of Quantum Computing:_**
+>   * **_From Quantum Physics/Mechanics to Computing_**
 >       * Quantum Superposition
 >       * Examples of Quantum Superposition
 >           * The Schrodinger’s Cat Experiment
