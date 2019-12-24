@@ -35,7 +35,7 @@ date:   2020-01-30 22:00:00
 <br />
 
 > * 📅 **_Week 1 - What is the Quantum?_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-1-what-is-the-quantum) 
->   * **_From Classical to Quantum Physics/Mechanics_**
+>   * **_From Classical Physics/Mechanics to Quantum Physics/Mechanics_**
 >       * Definition of Quantum
 >       * What is the Quantum Physics/Mechanics?
 >       * What is the Quantization?
