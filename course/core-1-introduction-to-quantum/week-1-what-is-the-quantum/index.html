@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>What is the Quantum? (Week 1) | Learning Quantum Computing</title>
+    <link rel="shortcut icon" href="../../../imgs/PNGs/quantum-atom.png">
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-responsive.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+  </head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span3" style="position: fixed;" >
+          <ul class="nav nav-list">
+              
+              <div class="core-image">
+                  <img src="../../../imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-1.jpg">
+
+                  <div class="core-bottom-left-description">
+                      <a href="../../../#/2020/01/30/core-1-introduction-to-quantum" style="color: white; font-size: 12pt;"> « Go back </a>
+                  </div>
+
+                  <div class="core-bottom-right-description-big">
+                      Introduction to Quantum
+                  </div>
+
+                  <div class="core-bottom-right-description-small">
+                      Core 1
+                  </div>
+              </div>
+
+              
+              <hr>
+              
+              <h4>📍 <b>Select a topic:</b></h4>
+              
+              <br />
+              
+              <span style="font-size: 10pt">
+                  <ul>
+                      <li><a href="#definition-of-quantum"> <b>Definition of Quantum</b> </a></li>
+                      <li><a href="#what-is-the-quantum-physics-mechanics"><b>What is the Quantum Physics/Mechanics?</b> </a></li>
+                      <li><a href="#what-is-the-quantization"><b>What is the Quantization?</b> </a></li>
+                      <li><a href="#what-is-an-atom"><b>What is an Atom?</b> </a></li>
+                      <li><a href="#the-components-of-an-atom"><b>The Components of an Atom</b> </a></li>
+                      <li><a href="#the-components-of-an-atom-demonstrated-by-the-bohrs-model"><b>The Components of an Atom Demonstrated by the Bohr's Model</b> </a></li>
+                      <li><a href="#understanding-the-components-of-an-atom"><b>Understanding the Components of an Atom</b> </a></li>
+                      <li><a href="#the-atoms-and-the-periodic-table"><b>The Atoms and the Periodic Table</b> </a></li>
+                      <li><a href="#atom-vs-particles-vs-molecules"><b>Atom vs. Particles vs. Molecules</b> </a></li>
+                      <li><a href="#understanding-the-molecules"><b>Understanding the Molecules</b> </a></li>
+                      <li><a href="#molecules-elements-vs-compounds"><b>Molecules: Elements vs. Compounds</b> </a></li>
+                      <li><a href="#the-quantization-of-the-hydrogen-atom"><b>The Quantization of the Hydrogen Atom</b> </a></li>
+                      <li><a href="#classical-physics-mechanics-vs-quantum-physics-mechanics"><b>Classical Physics/Mechanics vs. Quantum Physics/Mechanics</b> </a></li>
+                      <li><a href="#from-classical-physics-mechanics-to-quantum-physics-mechanics"><b>From Classical Physics/Mechanics to Quantum Physics/Mechanics</b> </a></li>
+                      <li><a href="#brief-timeline-of-quantum-physics-mechanics"><b>Brief Timeline of Quantum Physics/Mechanics</b> </a></li>
+                      <li><a href="#examples-of-mathematical-and-algebraic-formulations-of-quantum-physics-mechanics"><b>Examples of Mathematical and Algebraic Formulations of Quantum Physics/Mechanics</b> </a></li>
+                      <li><a href="#from-quantum-physics-mechanics-to-computing-models"><b>From Quantum Physics/Mechanics to Computing Models</b> </a></li>
+                  </ul>
+              </span>
+           
+              <hr>
+              
+              <h4>⚠️ <b>Notes:</b></h4>
+              
+              <ul>
+                  <li>
+                    <span style="font-size: 12px !important;">
+                        <b><i>This week will contain theoretical lectures exercises</i></b>
+                    </span>
+                  </li>
+              </ul>
+              
+              <hr>
+              
+              <h4>©️ <b>License:</b></h4>
+              <span style="font-size: 10pt">
+                  <ul>
+                     <li>
+                         <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                             <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+    
+                         </a>
+                    </li>
+                    <li>
+                        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+
+                    </li>              
+                </ul>
+              </span>
+          </ul>
+      </div>
+    
+      <div class="span9 main" style="position:absolute; margin-left: 340pt;">
+          <h1>What is the Quantum? (Week 1)</h1>
+          
+          <br />
+          
+          <h3>Core 1 - Introduction to Quantum</h3>
+          
+          <br />
+          
+          <h4><img src="../../../imgs/authors/protrait-2d.png" width="40" height="40">&nbsp;&nbsp;Rúben André Barreiro</h4>
+          
+          <hr>
+          
+          <div id="definition-of-quantum">
+              <h4><b>Definition of Quantum</b></h4>
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="course-overview">
+              <h4><b>Course Overview</b></h4>
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="important-and-relevant-bibliography">
+              <h4><b>Important and Relevant Bibliography</b></h4>
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="the-necessary-frameworks-tools-for-this-course">
+              <h4><b>The Necessary Frameworks/Tools for this Course</b></h4>
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="some-interesting-communities-and-groups">
+              <h4><b>Some Interesting Communities and Groups</b></h4>
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="the-author-of-this-course">
+              
+              <h4><b>The Author of this Course</b></h4>
+            
+              <br />            
+              <br />
+              
+              <center>
+                <img src="../../../imgs/authors/protrait-photo-rounded.png" width="300" height="300">
+              </center>
+              
+              <br />
+              <br />
+              
+              <ul>
+                
+                <li>
+                    <p>
+                        <a href="http://rubenandrebarreiro.github.io/"><b><i>Rúben André Barreiro</i></b></a> is a <b><u>passionate</u></b>, <b><u>enthusiastic</u></b>, <b><u>dedicated</u></b> and <b><u>hard work</u></b> student, currently in the 4th year of the <a href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science"><b><i>Integrated Master of Computer Science and Engineering (BSc. + MSc Bologna Degrees)</i></b></a>, by <a href="https://www.fct.unl.pt/"><b><i>Faculty of Sciences and Technology of New University of Lisbon (FCT NOVA | FCT/UNL)</i></b></a>, in <b><u>Portugal</u></b>.
+                    </p>
+                </li>
+                
+                <br />
+                  
+                <li>
+                    <p>
+                        He finished his <b><u>Bachelor</u></b> in 2018, with final <b><u>Grade Point Average of 15 out of 20</u></b>. And he have currently, a <b><u>Grade Point Average of 16 out of 20</u></b> in his <b><u>Master</u></b>.
+                    </p>
+                </li>
+                
+                <br />
+                  
+                <li>
+                    <p>
+                        Despite his love by <b><u>Computer Science and Engineering</u></b>, he also have a <b><u>big interest</u></b> in <b><u>fashion</u></b>, <b><u>sports</u></b>, <b><u>design</u></b>, <b><u>graphics</u></b>, <b><u>photography</u></b>, <b><u>multimedia</u></b>, <b><u>music</u></b>, <b><u>blogging</u></b> and <b><u>traveling</u></b>.
+                    </p>
+                </li>
+                
+                <br />
+                  
+                <li>
+                    <p>
+                        He did his <b><u>Final R&D Project</u></b> of <b><u>Bachelor</u></b> in the context of <b><i>Edge Computing</i></b>. This project it's called <a href="https://hyrax.dcc.fc.up.pt/"><b><i>Hyrax Project</i></b></a> and have the <b><u>Academic</u></b> collaborations of <a href="https://sigarra.up.pt/fcup/en/web_page.inicial"><b><i>Faculty of Sciences of University of Porto (FCUP)</i></b></a> and <a href="https://www.cmuportugal.org/"><b><i>Carnegie Mellon Universty's School of Computer Science (CMU | SCS)</i></b></a>, where built a distributed infrastructure named <a href="https://rubenandrebarreiro.github.io/research-development/hyrax-dice/presentation/hyrax-dice-presentation.html"><b><i>DiCE: Distributed Computing at the Edge</i></b></a>, supervised by <a href="https://docentes.fct.unl.pt/p161/"><b><i>Prof. Hervé Miguel Paulino</i></b></a> and finished with a <b><u>Final Grade of 17 out of 20</u></b>. This project counted yet with <b><u>Industrial</u></b> collaborations of <a href="http://www.geolink.pt/"><b><i>GeoLink</i></b></a>, <a href="https://www.wavecom.pt/"><b><i>Wavecom</i></b></a> and <a href="http://www.yinzcam.com/"><b><i>Yinzcam</i></b></a>, and also with <b><u>R&D</u></b> collaborations of <a href="http://nova-lincs.di.fct.unl.pt/"><b><i>NOVA LINCS (NOVA Laboratory for Computer Science and Informatics)</i></b></a>, <a href="https://www.inesctec.pt/en"><b><i>INESC TEC - CRACS</i></b></a> and <a href="https://www.it.pt/"><b><i>Instituto de Telecomunicações</i></b></a>.
+                    </p>
+                </li>
+                
+                <br />  
+                  
+                <li>
+                    <p>
+                        He collaborated in a <b><u>R&D Internship</u></b> in <a href="https://lsts.fe.up.pt/"><b><i>LSTS (Laboratório de Sistemas e Tecnologia Subaquática)</i></b></a> in <a href="https://sigarra.up.pt/feup/pt/web_page.inicial"><b><i>Faculty of Engineering of University of Porto (FEUP)</i></b></a> in the context of <b><u>AUVs (Autonomous Underwater Vehicles)</u></b>, working on <b><u>remote control</u></b> of this <b><u>vehicles</u></b>, in the project <a href="https://lsts.fe.up.pt/toolchain/neptus"><b><i>NEPTUS</i></b></a>.
+                    </p>
+                </li>
+                
+                <br />
+                  
+                <li>
+                    <p>
+                        He did a <b><u>Mobile Development Project</u></b> in <a href="https://sigarra.up.pt/feup/pt/web_page.inicial"><b><i>Faculty of Engineering of University of Porto (FEUP)</i></b></a> and <a href="https://mil.up.pt/"><b><i>U.Porto MIL (U.Porto - Media Innovation Labs)</i></b></a>, called <a href="https://rubenandrebarreiro.github.io/projects/unity3d/everyone-is-a-hero/mobile-app/android/everyone-is-a-hero-mobile-app-android.apk"><b><i>Everyone is a Hero</i></b></a>, based in developing a <b><u>Mobile Application</u></b> to support familiars and educators caring out of children who suffer of cancer diseases. This project had the support of <a href="https://www.bright.pt/"><b><i>Bright Digital</i></b></a> and <a href="http://www.ipoporto.pt/"><b><i>IPO-Porto (Instituto Português de Oncologia do Porto)</i></b></a>, was supervised by <a href="https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=450994"><b><i>Prof. Hugo Sereno Ferreira</i></b></a>, <a href="https://sigarra.up.pt/feup/en/func_geral.formview?p_codigo=618567"><b><i>Prof. José Maria Vilaça</i></b></a> and <a href="https://sigarra.up.pt/feup/pt/fest_geral.cursos_list?pv_num_unico=200603285"><b><i>Hernâni Zão Oliveira</i></b></a> and was finished with a <b><u>Final Grade of 15 out of 20</u></b>, being posteriorly, presented in the <a href="https://talkabit.org/"><b><i>TalkABit</i></b></a>, in Porto.
+                    </p>
+                </li>
+                
+                <br />
+                  
+                <li>
+                    <p>
+                        His preferred <b><u>subjects</u></b> and <b><u>topics</u></b> on <b><i>Computer Science and Engineering</i></b> are:
+                    </p>
+                    
+                    <ul>
+                        <li>
+                            <p><b><i>Logics</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Web & Internet Applications' Design</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>2D/3D Graphics & Interfaces</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Computer Networks</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Distributed Systems</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Edge & Fog Computing</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Mobile & Pervasive Computing</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Internet & Computer Network's Security</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Classical Cryptography</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Cybersecurity</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Artificial Intelligence</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Machine Learning</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Deep Learning</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Data Mining</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Data Analytics & Modelling</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Game Theory</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Autonomous & Intelligent Multi-Agent Systems</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Computer Vision</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Robotics</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Games & Simulation</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Augmented & Virtual Reality</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Multi-threading Systems</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Concurrent & Parallel Systems</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>High Performance Computing</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>GPU Programming</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Quantum Theory</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Quantum Information</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Quantum Computing</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Quantum Internet/Networks</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Quantum Cryptography</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Quantum Machine Learning</i></b></p>
+                        </li>
+                        <li>
+                            <p><b><i>Quantum Game Theory</i></b></p>
+                        </li>
+                    </ul>
+                        
+                </li>
+                
+                <br/>
+                  
+                <li>
+                    <p>
+                        Here, are important links, where you can follow some of my <b><u>Academic and Personal Projects/Works</u></b>:
+                    </p>
+                    
+                    <ul>
+                        <li>
+                            <p><a href="https://github.com/rubenandrebarreiro/"><b><i>https://github.com/rubenandrebarreiro/</i></b></a></p>
+                        </li>
+                        <li>
+                            <p><a href="https://gitlab.com/rubenandrebarreiro/"><b><i>https://gitlab.com/rubenandrebarreiro/</i></b></a></p>
+                        </li>
+                        <li>
+                            <p><a href="https://bitbucket.com/rubenandrebarreiro/"><b><i>https://bitbucket.com/rubenandrebarreiro/</i></b></a></p>
+                        </li>
+                        <li>
+                            <p><a href="https://dev.azure.com/rubenandrebarreiro/"><b><i>https://dev.azure.com/rubenandrebarreiro/</i></b></a></p>
+                        </li>
+                    </ul>
+                </li>
+                
+                <br />
+                  
+                <li>
+                    <p>
+                        Here, you can also, check my <b><u>GitHub's Portfolio/Personal Blog</u></b>:
+                    </p>
+                    
+                    <ul>
+                        <li>
+                            <p><a href="https://rubenandrebarreiro.github.io/"><b><i>https://rubenandrebarreiro.github.io/</i></b></a></p>
+                        </li>
+                    </ul>
+                </li>
+                    
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="credits-and-special-thanks">
+              <h4><b>Credits and Special Thanks</b></h4>
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="proposed-exercises">
+              <h4><b>Proposed Exercises</b></h4>
+          
+              <br />
+              <br />
+              
+              <span style="font-size: 18pt">Setup, Configuration and Usage of <a href="https://quantum-computing.ibm.com/">IBM Q Experience</a></span>
+              
+              <br />
+              
+              <h5><b>1. Creation of an account in <a href="https://quantum-computing.ibm.com/">IBM Q Experience</a></b></h5>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <b>
+                        i. <u></u>Go to <a href="https://quantum-computing.ibm.com/">https://quantum-computing.ibm.com/</a>, you will see the <u>following</u> <i>Website</i>'s interface
+                    </b>
+                    
+                    <br />
+                    <br />
+                    
+                    <img src="assets/images/exercises/ibm-q-experience-1.gif" width="800" height="340">
+                </li>
+                
+                <br />
+                <br />
+                  
+                <li>
+                    <b>
+                        ii. <u><i>Click</i></u> in the option of <a href="https://auth.quantum-computing.ibm.com/auth/idaas">Create an IBMid account</a>, on the <u>right side</u> of the <i>Website</i>'s interface
+                    </b>
+                    
+                    <br />
+                    <br />
+                    
+                    <a href="https://auth.quantum-computing.ibm.com/auth/idaas">
+                        <img src="assets/images/exercises/ibm-q-experience-create-account-1.jpg" width="400" height="140">
+                    </a>
+                </li>
+                
+                <br />
+                <br />
+                  
+                <li>
+                    <b>
+                        iii. It will be <u><i>shown</i></u> the following <i>Website</i>'s interface and respective <i>form</i> for the <u>creation of a new <i>IBMid</i> acccount</u>
+                    </b>
+                    
+                    <br />
+                    <br />
+                    
+                    <a href="https://auth.quantum-computing.ibm.com/auth/idaas">
+                        <img src="assets/images/exercises/ibm-q-experience-create-account-2.gif" width="800" height="340">
+                    </a>
+                </li>
+                  
+                <br />
+                <br />
+                  
+                <li>
+                    <b>
+                        iv. <u><i>Fill</i></u> the <i>form</i> for the <u>creation of a new <i>IBMid</i> acccount</u> with your <i>personal data and information</i>
+                    </b>
+                    
+                    <br />
+                    <br />
+                    
+                    <a href="https://auth.quantum-computing.ibm.com/auth/idaas">
+                        <img src="assets/images/exercises/ibm-q-experience-create-account-3.jpg" width="800" height="340">
+                    </a>
+                </li>
+                  
+                <br />
+                <br />
+                  
+                <li>
+                    <b>
+                        v. After <u><i>fill</i></u> completely the <i>form</i> for the <u>creation of a new <i>IBMid</i> acccount</u>, <u><i>click</i></u> in the option of <i><u>Continue</u></i>
+                    </b>
+                    
+                    <br />
+                    <br />
+                    
+                    <a href="https://auth.quantum-computing.ibm.com/auth/idaas">
+                        <img src="assets/images/exercises/ibm-q-experience-create-account-4.gif" width="800" height="340">
+                    </a>
+                </li>
+                  
+                <br />
+                <br />
+                  
+                <li>
+                    <b>
+                        vi. <u><i>Complete</i></u> the following <u>verification captcha</u>
+                    </b>
+                    
+                    <br />
+                    <br />
+                    
+                    <a href="https://auth.quantum-computing.ibm.com/auth/idaas">
+                        <img src="assets/images/exercises/ibm-q-experience-create-account-5.gif" width="800" height="340">
+                    </a>
+                </li>
+                  
+                <br />
+                <br />
+                  
+                <li>
+                    <b>
+                        vii. <u><i>Go check the e-mail</i></u> used in the <i>form</i> for the <u>creation of a new <i>IBMid</i> acccount</u>, <u><i>copy</i></u> and <u><i>enter</i></u> the <u>7 digit verification code</u> to the <u>following</u> text-area presented in the <i>Website</i>'s interface shown and then, <u><i>click</i></u> in <u><i>verify</i></u>
+                    </b>
+                    
+                    <br />
+                    <br />
+                    
+                    <a href="https://auth.quantum-computing.ibm.com/auth/idaas">
+                        <img src="assets/images/exercises/ibm-q-experience-create-account-6.jpg" width="800" height="340">
+                    </a>
+                </li>
+                  
+                <br />
+                <br />
+                  
+                <li>
+                    <b>
+                        viii. <u><i>Fill</i></u> one more last <i>form</i> asking you for more <i>personal data and information</i>
+                    </b>
+                    
+                    <br />
+                    <br />
+                    
+                    <a href="https://auth.quantum-computing.ibm.com/auth/idaas">
+                        <img src="assets/images/exercises/ibm-q-experience-create-account-7.gif" width="800" height="340">
+                    </a>
+                </li>
+                  
+                <br />
+                <br />
+                  
+                <li>
+                    <b>
+                        ix. <u><i>Go check the e-mail</i></u> used in the <i>form</i> for the <u>creation of a new <i>IBMid</i> acccount</u>, you should receive an e-mail with a confirmation of the <u>creation of a new <i>IBMid</i> acccount</u> successfully
+                    </b>
+                    
+                    <br />
+                    <br />
+                    
+                    <a href="https://auth.quantum-computing.ibm.com/auth/idaas">
+                        <img src="assets/images/exercises/ibm-q-experience-confirmation-creation-account-1.jpg" width="400" height="140">
+                    </a>
+                </li>
+                  
+                <br />
+                <br />
+                  
+                <li>
+                    <b>
+                        x. After the <u>creation of a new <i>IBMid</i> acccount</u>, you can always login again, using the used credentials during the fulfillment of the <i>form</i> with your <i>personal data and information</i>
+                    </b>
+                    
+                    <br />
+                    <br />
+                    
+                    <a href="https://auth.quantum-computing.ibm.com/auth/idaas">
+                        <img src="assets/images/exercises/ibm-q-experience-login-1.jpg" width="800" height="340">
+                    </a>
+                </li>
+              </ul>
+              
+              <br />
+              <hr>
+              <br />
+              
+              <h5><b>2. Configuration of an account in <a href="https://quantum-computing.ibm.com/">IBM Q Experience</a></b></h5>
+              
+              <br />
+              
+              <ul>
+                  <li>
+                    <b>
+                        i. After the <u><i>creation of an account in <a href="https://quantum-computing.ibm.com/">IBM Q Experience</a></i></u>, you should be able to see and access to your <u>personal dashboard</u>, presented as the following
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-dashboard-1.jpg" width="800" height="340">
+                  </li>
+                  
+                  <br />
+                  <br />
+                  
+                  <li>
+                    <b>
+                        ii. In the <u><i>top right corner</i></u>, you should be able to <u>access the tab associated to your <i>account settings/configurations</i></u>
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-my-account-1.jpg" width="800" height="340">
+                  </li>
+                  
+                  <br />
+                  <br />
+                  
+                  <li>
+                    <b>
+                        iii. <u><i>Go there</i></u> and <u>click in <i>My Account</i> tab</u>
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-my-account-2.jpg" width="800" height="340">
+                  </li>
+                  
+                  <br />
+                  <br />
+                  
+                  <li>
+                    <b>
+                        iv. Then, you should be able to <u><i>see</i></u> the following <i>Website</i> interface, presenting some possible personal settings/configurations
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-my-account-3.jpg" width="800" height="340">
+                  </li>
+                  
+                  <br />
+                  <br />
+                  
+                  <li>
+                    <b>
+                        v. And, you can also <u><i>check</i></u> your providers, i.e., the <u><i>Quantum Computers/Processors</i></u> which you have access to, and can use, to run your algorithms and simulations
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-my-account-4.jpg" width="800" height="340">
+                  </li>
+                  
+                  <br />
+                  <br />
+                  
+                  <li>
+                    <b>
+                        vi. After, the <u>creation of a new <i>IBMid</i> acccount</u> and the respectively, first access to your <a href="https://quantum-computing.ibm.com/">IBM Q Experience</a> account, you <u>should immediately <i>verify the e-mail</i> used in the registration form</u>, in order to be able to use all the features offered by the system
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-my-account-verify-email-1.jpg" width="800" height="340">
+                  </li>
+                  
+                  <br />
+                  <br />
+                  
+                  <li>
+                    <b>
+                        vii. After <u><i>verifying the e-mail</i> used in the registration form</u>, your <u>personal e-mail</u> should appear as verified in the <i>My Account</i> settings/configurations interface
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-my-account-verify-email-2.jpg" width="800" height="340">
+                  </li>
+                  
+                  <br />
+                  <br />
+                  
+                  <li>
+                    <b>
+                        viii. And then, you also should be able to see your <u>personal e-mail</u>, in the <u><i>tabs' menu</i></u> on the <u><i>top right corner</i></u>
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-my-account-verify-email-3.jpg" width="800" height="340">
+                  </li>
+              </ul>
+              
+              <br />
+              <hr>
+              <br />
+              
+              <h5><b>3. The Providers/Backends (<i>Quantum Machines</i>) available in your <a href="https://quantum-computing.ibm.com/">IBM Q Experience</a></b></h5>
+              
+              <br />
+              
+              <ul>
+                  <li>
+                    <b>
+                        i. In the <u>right side</u> of the <i>Dashboard</i> of your <a href="https://quantum-computing.ibm.com/">IBM Q Experience</a> <i>Website</i>'s interface, you can check the <u>providers/backends</u> which you have access to
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-providers-backends-1.jpg" width="800" height="340">
+                  </li>
+                  
+                  <br />
+                  <br />
+                  
+                  <li>
+                    <b>
+                        ii. <u>Selecting</u> one of the <u>providers/backends</u> which you have access to, you can check its statistics/specifications
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-ibmq-16-melbourne-stats-1.jpg" width="800" height="340">
+                  </li>
+                  
+                  <br />
+                  <br />
+                  
+                  <li>
+                    <b>
+                        iii. You can also <u>download</u> the <u>calibration status</u> values of its several components, in <u><i>.CSV</i> format</u>, similary to the following presented
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-ibmq-16-melbourne-calibration-1.jpg" width="800" height="340">
+                  </li>
+              </ul>
+              
+              <br />
+              <hr>
+              <br />
+              
+              <h5><b>4. Online Tools available in <a href="https://quantum-computing.ibm.com/">IBM Q Experience</a></b></h5>
+              
+              <br />
+              
+              <ul>
+                  <li>
+                    <b>
+                        i. In the <u>left sidebar</u> of your <a href="https://quantum-computing.ibm.com/">IBM Q Experience</a> <i>Website</i>'s interface, you can check the following tools:
+                        
+                        <br />
+                        
+                        <ul>
+                            <li>
+                                <b>Results</b>
+                            </li>
+                            <li>
+                                <b>Circuit Composer</b>
+                            </li>
+                            <li>
+                                <b>Qiskit Notebooks</b>
+                            </li>
+                        </ul>
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-1.jpg" width="800" height="340">
+                  </li>
+                  
+                  <br />
+                  <br />
+                  
+                  <li>
+                    <b>
+                        ii. In the option <u><i>Results</i></u>, you can check the executions/simulations of you <u><i>Quantum Circuits</i></u> and <u><i>Quantum Algorithms</i></u>, which are executing or already executed
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-results-1.jpg" width="800" height="340">
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-results-2.jpg" width="800" height="340">
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-results-3.jpg" width="800" height="340">
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-results-4.gif" width="800" height="340">
+                  </li>
+                  
+                  <br />
+                  <br />
+                  
+                  <li>
+                    <b>
+                        iii. In the option <u><i>Circuit Composer</i></u>, you can create and build your <u><i>Quantum Circuits</i></u>, or even, import them, through <a href="https://en.wikipedia.org/wiki/OpenQASM">OpenQASM (Open Quantum Assembly Language)</a>, which is a <u><i>Low-Level Language</i> for expressing <i>Quantum Circuits</i>, and is one of the first programming languages for <i>Quantum Computing</i></u>
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-circuit-composer-1.jpg" width="800" height="340">
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-circuit-composer-2.jpg" width="800" height="340">
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-circuit-composer-3.jpg" width="800" height="340">
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-circuit-composer-4.gif" width="800" height="340">
+                  </li>
+                  
+                  <br />
+                  <br />
+                  
+                  <li>
+                    <b>
+                        iv. In the option <u><i>Qiskit Notebooks</i></u>, <u>you can see and use some tutorials</u>, already given by the <a href="https://quantum-computing.ibm.com/">IBM Q Experience</a> application, based on the interactive framework <a href="https://jupyter.org/">Jupyter Notebook</a>, or even, <u>create your own interactive tutorials of <i>Quantum Computing</i></u>
+                    </b>
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-qiskit-notebooks-1.jpg" width="800" height="340">
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-qiskit-notebooks-2.jpg" width="800" height="340">
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-qiskit-notebooks-3.jpg" width="800" height="340">
+                      
+                    <br />
+                    <br />
+                      
+                    <img src="assets/images/exercises/ibm-q-experience-tools-qiskit-notebooks-4.gif" width="800" height="340">
+                  </li>
+              </ul>
+          </div>
+          
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

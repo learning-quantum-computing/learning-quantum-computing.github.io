@@ -50,7 +50,7 @@ date:   2020-01-30 22:00:00
 >       * The Quantization of the Hydrogen Atom
 >       * Classical Physics/Mechanics vs. Quantum Physics/Mechanics
 >       * From Classical Physics/Mechanics to Quantum Physics/Mechanics
->       * Brief Timeline of QuantumPhysics/Mechanics
+>       * Brief Timeline of Quantum Physics/Mechanics
 >       * Examples of Mathematical and Algebraic Formulations of Quantum Physics/Mechanics
 >       * From Quantum Physics/Mechanics to Computing Models
 
