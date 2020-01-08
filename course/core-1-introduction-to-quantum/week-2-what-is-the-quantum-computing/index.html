@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>What is the Quantum Computing? (Week 2) | Learning Quantum Computing</title>
+    <link rel="shortcut icon" href="../../../imgs/PNGs/quantum-atom.png">
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-responsive.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+  </head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span3" style="position: fixed;" >
+          <ul class="nav nav-list">
+              
+              <div class="core-image">
+                  <img src="../../../imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-1.jpg">
+
+                  <div class="core-bottom-left-description">
+                      <a href="../../../#/2020/01/30/core-1-introduction-to-quantum" style="color: white; font-size: 12pt;"> « Go back </a>
+                  </div>
+
+                  <div class="core-bottom-right-description-big">
+                      Introduction to Quantum
+                  </div>
+
+                  <div class="core-bottom-right-description-small">
+                      Core 1
+                  </div>
+              </div>
+
+              
+              <hr>
+              
+              <h5>📍 <b>Select a topic:</b></h5>
+              
+              <span style="font-size: 10pt">
+                  <ul>
+                      <li><a href="#motivations-part-1"> <b>Motivations (Part I)</b> </a></li>
+                      <ul>
+                        <li><a href="#introduction"> <b>Introduction</b></a></li>
+                        <li><a href="#moores-law"> <b>Moore's Law</b></a></li>
+                        <li><a href="#computing-power-and-speed"> <b>Computing Power and Speed</b></a></li>
+                        <li><a href="#computing-efficiency"> <b>Computing Efficiency</b></a></li>
+                      </ul>
+                      <li><a href="#types-of-transistors"><b>Types of Transistors</b> </a></li>
+                      <li><a href="#bipolar-junction-transistors-bjts"><b>Bipolar Junction Transistors (B.J.T.s)</b> </a></li>
+                      <li><a href="#field-effect-transistors-fets"><b>Field Effect Transistors (F.E.T.s)</b> </a></li>
+                      <li><a href="#overview-of-transistors-types"><b>Overview of Transistors Types</b> </a></li>
+                      <li><a href="#motivations-part-2"><b>Motivations (Part II)</b> </a></li>
+                      <ul>
+                        <li><a href="#computers-prototypes-storage-software"><b>Computers' Prototypes, Storage and Software</b></a></li>
+                        <li><a href="#internet-networks-and-communications"><b>Internet, Networks and Communications</b></a></li>
+                        <li><a href="#new-computers-classes-and-models"><b>New Computers’ Classes and Models</b></a></li>
+                        <li><a href="#retrospectives"><b>Retrospectives</b></a></li>
+                        <li><a href="#need-for-more-powerful-computing-machines"><b>Need for More Powerful Computing Machines</b></a></li>
+                      </ul>
+                      <li><a href="#the-emergence-of-a-new-era-of-computers"><b>The Emergence of a New Era of Computers</b> </a></li>
+                      <li><a href="#a-philosophical-overview"><b>A Philosophical Overview</b> </a></li>
+                      <li><a href="#definition-of-quantum-computing"><b>Definition of Quantum Computing</b> </a></li>
+                      <li><a href="#how-quantum-computing-works"><b>How Quantum Computing Works?</b> </a></li>
+                      <li><a href="#classical-computing-vs-quantum-computing"><b>Classical Computing vs. Quantum Computing</b> </a></li>
+                      <li><a href="#relationship-with-computational-complexity-theory"><b>Relationship with Computational Complexity Theory</b> </a></li>
+                      <li><a href="#final-remarks-of-the-current-state-of-computational-complexity-theory"><b>Final Remarks of the Current State of Computational Complexity Theory</b> </a></li>
+                      <li><a href="#final-review-of-the-current-state-of-computational-complexity-theory"><b>Final Review of the Current State of Computational Complexity Theory</b> </a></li>
+                      <li><a href="#brief-overview-of-the-current-state-of-computational-complexity-theory"><b>Brief Overview of the Current State of Computational Complexity Theory</b> </a></li>
+                  </ul>
+              </span>
+           
+              <hr>
+              
+              <h5>⚠️ <b>Notes:</b></h5>
+              
+              <ul>
+                  <li>
+                    <span style="font-size: 12px !important;">
+                        <b><i>This week will contain only theoretical lectures</i></b>
+                    </span>
+                  </li>
+              </ul>
+              
+              <hr>
+              
+              <h5>©️ <b>License:</b></h5>
+              <span style="font-size: 10pt">
+                  <ul>
+                     <li>
+                         <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                             <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+    
+                         </a>
+                    </li>
+                    <li>
+                        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+
+                    </li>              
+                </ul>
+              </span>
+          </ul>
+      </div>
+    
+      <div class="span9 main" style="position:absolute; margin-left: 340pt;">
+          <h1>What is the Quantum Computing? (Week 2)</h1>
+          
+          <br />
+          
+          <h3>Core 1 - Introduction to Quantum</h3>
+          
+          <br />
+          
+          <h4><img src="../../../imgs/authors/protrait-2d.png" width="40" height="40">&nbsp;&nbsp;Rúben André Barreiro</h4>
+          
+          <hr>
+          
+          <div id="motivations-part-1">
+              <h4><b>Motivations (Part I)</b></h4>
+              
+              <br />              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+        </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
