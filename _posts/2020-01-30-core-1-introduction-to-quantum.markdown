@@ -56,7 +56,7 @@ date:   2020-01-30 22:00:00
 
 ```
 ⚠️ Notes:
-    - This week will contain only theoretical lectures
+    - This week will contain theoretical lectures and practical exercises
 ```
 
 <br />
