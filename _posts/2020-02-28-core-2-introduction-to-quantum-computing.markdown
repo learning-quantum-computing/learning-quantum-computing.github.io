@@ -12,8 +12,8 @@ date:   2020-02-28 22:00:00
 >   * **_From Quantum Physics/Mechanics to Computing_**
 >       * What is the Concept of Information?
 >       * What is an Unit of Information?
->       * What is Data?
 >       * What is an Unit of Measurement?
+>       * What is Data?
 >       * Classical Information
 >       * Classical Units of Information
 >       * What is a Bit?
