@@ -8,11 +8,24 @@ date:   2020-02-28 22:00:00
 ---
 
 ### 📂 List of Contents:
-> * 📅 **_Week 5 - The Fundamentals of Quantum Computing:_**
+> * 📅 **_Week 5 - The Fundamentals of Quantum Computing:_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-5-the-fundamentals-of-quantum-computing)
 >   * **_From Quantum Physics/Mechanics to Computing_**
+>       * What is an Unit of Measurement?
+>       * What is the Concept of Information?
+>       * Classical Information
+>       * Classical Units of Information
+>       * What is a Bit?
+>       * Nat, Trit and Dit (Hartley or Ban) - Others Units of Classical Information
+>       * Quantum Information
+>       * Quantum Units of Information
+>       * What is a Quantum Bit?
+>       * Qutrit and Qudit - Others Units of Quantum Information
+>       * Bit vs. Pbit vs. Qubit - Comparison Between Basic Units of Information
+>       * Quantum Theory
 >       * Quantum Superposition
->       * Examples of Quantum Superposition
->           * The Schrodinger’s Cat Experiment
+>       * Quantum Superposition through Practical Experiments - The Schrödinger’s Cat Experiment
+>       * Quantum Superposition through Practical Experiments - The Spinning Coin Experiment
+>       * Other Examples of Quantum Superposition
 >           * The Folk Tale of the Rooster of Barcelos
 >           * Portuguese Expressions and Slangs
 >           * Portuguese Oxymorphs
@@ -25,6 +38,7 @@ date:   2020-02-28 22:00:00
 >           * The Night King’s conversion of Living Beings to White Walkers
 >           * The Love’s/Throne’s Dilemma of Daenerys Targaryen and Jon Snow
 >           * The Cylinders’ Dilemma (2D Plane Views/Representations)
+>           * Baggels' Paradox (Donuts or Pizzas)
 >           * The Hyperbolic Paraboloids’ Dilemma (Geometric Solids or Snack Chips)
 >           * My Future Perspectives/Plans(Academic’s/Industrial’s Dilemma)
 >           * My Master Thesis’ Theme/Subject(The Biggest Dilemma of My Life)
