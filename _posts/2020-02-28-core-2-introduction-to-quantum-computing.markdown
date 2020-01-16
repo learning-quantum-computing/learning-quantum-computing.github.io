@@ -14,6 +14,7 @@ date:   2020-02-28 22:00:00
 >       * What is an Unit of Information?
 >       * What is an Unit of Measurement?
 >       * What is Data?
+>       * What is Knowledge?
 >       * Classical Information
 >       * Classical Units of Information
 >       * What is a Bit?
