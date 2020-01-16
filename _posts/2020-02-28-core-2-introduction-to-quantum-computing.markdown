@@ -23,8 +23,9 @@ date:   2020-02-28 22:00:00
 >       * Bit vs. Pbit vs. Qubit - Comparison Between Basic Units of Information
 >       * Quantum Theory
 >       * Quantum Superposition
->       * Quantum Superposition through Practical Experiments - The Schrödinger’s Cat Experiment
->       * Quantum Superposition through Practical Experiments - The Spinning Coin Experiment
+>       * Quantum Superposition through Practical Experiments
+>           * The Schrödinger’s Cat Experiment
+>           * The Spinning Coin Experiment
 >       * Other Examples of Quantum Superposition
 >           * The Folk Tale of the Rooster of Barcelos
 >           * Portuguese Expressions and Slangs
