@@ -42,6 +42,11 @@ date:   2020-02-28 22:00:00
 >           * The Hyperbolic Paraboloids’ Dilemma (Geometric Solids or Snack Chips)
 >           * My Future Perspectives/Plans(Academic’s/Industrial’s Dilemma)
 >           * My Master Thesis’ Theme/Subject(The Biggest Dilemma of My Life)
+>       * Reviewing Linear Algebra
+>           * What is a Matrix?
+>           * Matrices' Notations
+>           * Commonly Known Types of Matrices
+>           * Matrices' Operations
 
 ```
 ⚠️ Notes:
