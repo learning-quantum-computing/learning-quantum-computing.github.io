@@ -38,6 +38,7 @@ date:   2020-01-30 22:00:00
   </font>
 </center>
 <hr/>
+<br>
 
 > * 📅 **_Week 1 - What is the Quantum?_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-1-what-is-the-quantum) 
 >   * **_From Classical Physics/Mechanics to Quantum Physics/Mechanics_**
@@ -72,6 +73,7 @@ date:   2020-01-30 22:00:00
   </font>
 </center>
 <hr/>
+<br>
 
 > * 📅 **_Week 2 - What is the Quantum Computing?_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-2-what-is-the-quantum-computing) 
 >   * **_Beyond the Computing Power_**
@@ -111,6 +113,7 @@ date:   2020-01-30 22:00:00
   </font>
 </center>
 <hr/>
+<br>
 
 > * 📅 **_Week 3 - Timeline of the Quantum Computing_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-3-timeline-of-the-quantum-computing) 
 >   * **_Quantum Computing through the History_**
@@ -136,6 +139,7 @@ date:   2020-01-30 22:00:00
   </font>
 </center>
 <hr/>
+<br>
 
 > * 📅 **_Week 4 - The Quantum Computers_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-4-the-quantum-computers) 
 >   * **_Understanding this New Family of Computing Machines_**
@@ -161,6 +165,7 @@ date:   2020-01-30 22:00:00
   </font>
 </center>
 <hr/>
+<br>
 
 ## ©️ License
 <hr>

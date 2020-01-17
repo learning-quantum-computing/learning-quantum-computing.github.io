@@ -44,6 +44,7 @@ date:   2020-02-28 22:00:00
   </font>
 </center>
 <hr/>
+<br>
 
 > * 📅 **_Week 6 - Representing the Quantum Nature through Mathematics_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-6-representing-the-quantum-nature-through-mathematics)
 >   * **_The Mathematics Beyond Quantum_**
@@ -67,6 +68,7 @@ date:   2020-02-28 22:00:00
   </font>
 </center>
 <hr/>
+<br>
 
 > * 📅 **_Week 7 - The Fundamentals of Quantum Computing_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-7-the-fundamentals-of-quantum-computing)
 >   * **_From Quantum Physics/Mechanics to Computing_**
@@ -105,6 +107,7 @@ date:   2020-02-28 22:00:00
   </font>
 </center>
 <hr/>
+<br>
 
 ## ©️ License
 <hr>
