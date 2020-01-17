@@ -17,10 +17,12 @@ date:   2020-02-28 22:00:00
 >       * What is Knowledge?
 >       * Classical Information
 >       * Classical Units of Information
+>       * Classical Data Storage
+>       * Practical Examples of Used Sizes of Units of Information
 >       * What is a Bit?
->       * Nat, Trit and Dit (Hartley or Ban) - Others Units of Classical Information
 >       * Quantum Information
 >       * Quantum Units of Information
+>       * Quantum Data Storage
 >       * What is a Quantum Bit?
 >       * Qutrit and Qudit - Others Units of Quantum Information
 >       * Bit vs. Pbit vs. Qubit - Comparison Between Basic Units of Information
