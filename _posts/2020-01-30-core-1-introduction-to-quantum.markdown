@@ -87,8 +87,6 @@ date:   2020-01-30 22:00:00
 >       * Classical Computing vs. Quantum Computing
 >       * Relationship with Computational Complexity Theory
 >       * Final Remarks of the Current State of Computational Complexity Theory
->       * Final Review of the Current State of Computational Complexity Theory
->       * Brief Overview of the Current State of Computational Complexity Theory
 
 ```
 ⚠️ Notes:
@@ -98,6 +96,42 @@ date:   2020-01-30 22:00:00
 <br />
 <hr>
 <br />
+
+> * 📅 **_Week 3 - Timeline of the Quantum Computing_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-3-timeline-of-the-quantum-computing) 
+>   * **_Quantum Computing through the History_**
+>       * Quantum Computing over the years Worldwide
+>       * Quantum Computing over the years in Portugal
+>       * Relevant Contributors for the Studies about Quantum Computing
+>       * Scientific Applications of Quantum Computing
+>       * Field Effect Transitors (F.E.T.s)
+>       * Breaking Paradigms
+>       * Current State of Art and Research
+>       * Research & Development Projects in Quantum Computing
+
+```
+⚠️ Notes:
+    - This week will contain only theoretical lectures
+```
+
+<br />
+<hr>
+<br />
+
+> * 📅 **_Week 4 - The Quantum Computers_** [(**_Click here_**)](course/core-1-introduction-to-quantum/week-4-the-quantum-computers) 
+>   * **_Understanding this New Family of Computing Machines_**
+>       * What is a Quantum Computer?
+>       * Concerns and Cautions about the Behaviour of Quantum Computers
+>       * Challenges and Obstacles
+>       * CPUs vs. GPUs vs. QPUs
+>       * Presenting the IBM Q System
+>       * Components of the IBM Q System
+>       * IBM Q Experience
+>       * Qiskit Framework Stack
+
+```
+⚠️ Notes:
+    - This week will contain only theoretical lectures
+```
 
 ## ©️ License
 <hr>
