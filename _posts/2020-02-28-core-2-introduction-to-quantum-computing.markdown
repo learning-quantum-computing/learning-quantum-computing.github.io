@@ -25,6 +25,7 @@ date:   2020-02-28 22:00:00
 >       * Quantum Units of Information
 >       * Quantum Data Storage
 >       * What is a Qubit?
+>       * Bloch Sphere
 >       * Bit vs. Pbit vs. Qubit - Comparison Between Basic Units of Information
 >       * Quantum Theory
 >       * Quantum Information Theory
