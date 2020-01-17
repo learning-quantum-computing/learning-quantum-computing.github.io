@@ -8,7 +8,7 @@ date:   2020-02-28 22:00:00
 ---
 
 ### 📂 List of Contents:
-> * 📅 **_Week 5 - Understanding the Quantum Information_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-5-understading-the-quantum-information)
+> * 📅 **_Week 5 - Understanding the Quantum Information_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-5-understanding-the-quantum-information)
 >   * **_Encoding Quantum Nature through Information_**
 >       * What is the Concept of Information?
 >       * What is an Unit of Information?
