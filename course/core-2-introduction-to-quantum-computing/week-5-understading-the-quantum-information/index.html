@@ -262,14 +262,64 @@
                                 <u><i><b>n bits = n states</b></i></u>;
                             </p>
                         </li>
+                        <br />
                         <li>
                             <p>
-                                \begin{matrix} 
-                                1 & x & x^2 \\ 
-                                1 & y & y^2 \\ 
-                                1 & z & z^2 \\ 
-                                \end{matrix}
+                                <b>Formula</b>:
+                                <br />
+                                \begin{aligned}[left*]
+                                    Bit &= \{ \ 0 \ &or; \ 1 \ \}\hspace{400ex}
+                                \end{aligned}
                             </p>
+                        </li>
+                        <br />
+                        <li>
+                            <b>Other Properties</b>:
+                            <br />
+                            \begin{aligned}
+                                Configurations &= 
+                                    \begin{array}{|l|}
+                                        \hline
+                                        0\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{1ex}
+                                    \begin{array}{|l|}
+                                        \hline
+                                        1\\
+                                        \hline
+                                    \end{array},
+                                    \\
+                                    \\
+                                Description &=
+                                    \begin{bmatrix} 
+                                        1 \\
+                                        0
+                                    \end{bmatrix},
+                                    \\
+                                    \\
+                                Observation &= 
+                                    \begin{array}{|l|}
+                                        \hline
+                                        0\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{1ex}
+                                    OR
+                                    \hspace{1ex}
+                                    \begin{array}{|l|}
+                                        \hline
+                                        1\\
+                                        \hline
+                                    \end{array}\hspace{1ex}(Certainty),
+                                    \\
+                                    \\
+                                Evolution &=
+                                    \begin{bmatrix} 
+                                        0 & 1 \\
+                                        1 & 0
+                                    \end{bmatrix}\hspace{0.5ex}(Deterministic).\hspace{400ex}
+                            \end{aligned}
                         </li>
                     </ul>
                 </li>
@@ -306,6 +356,68 @@
                             <p>
                                 <u><i><b>n pbits = n states</b></i></u>;
                             </p>
+                        </li>
+                        <br />
+                        <li>
+                            <p>
+                                <b>Formula</b>:
+                                <br />
+                                \begin{aligned}[left*]
+                                    Pbit &= \{ \ 0 \ : \ p \ , \ 1 \ : \ ( \ 1 \ - \ p \ ) \ \}\hspace{400ex}
+                                \end{aligned}
+                            </p>
+                        </li>
+                        <br />
+                        <li>
+                            <b>Other Properties</b>:
+                            <br />
+                            \begin{aligned}[left*]
+                                Configurations &= 
+                                    \begin{array}{|l|}
+                                        \hline
+                                        0\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{1ex}
+                                    \begin{array}{|l|}
+                                        \hline
+                                        1\\
+                                        \hline
+                                    \end{array},
+                                    \\
+                                    \\
+                                Description &=
+                                    \begin{bmatrix} 
+                                        p \\
+                                        1 - p
+                                    \end{bmatrix}\hspace{0.5ex}(p \in \mathbb{R}),
+                                    \\
+                                    \\
+                                Observation &= 
+                                    \begin{array}{|l|}
+                                        \hline
+                                        0\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{0.8ex}(p \%)
+                                    \hspace{1ex}
+                                    OR
+                                    \hspace{1.4ex}
+                                    \begin{array}{|l|}
+                                        \hline
+                                        1\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{0.8ex}([1-p] \%),
+                                    \\
+                                    \\
+                                Evolution &=
+                                    \begin{bmatrix} 
+                                        1 - q & r \\
+                                        q & 1 - r
+                                    \end{bmatrix}\hspace{0.5ex}(q,\ r \in \mathbb{R})\hspace{0.5ex}(Stochastic).
+                            \hspace{400ex}
+                            \end{aligned}
                         </li>
                     </ul>
                 </li>
@@ -349,6 +461,67 @@
                             <p>
                                 <u><i><b>n qubits = 2<sup>n</sup> states</b></i></u>;
                             </p>
+                        </li>
+                        <br />
+                        <li>
+                            <p>
+                                <b>Formula</b>:
+                                <br />
+                                \begin{aligned}[left*]
+                                    Qubit &= &alpha;\left| 0 \right> + &beta;\left| 1 \right>\hspace{400ex}
+                                \end{aligned}
+                            </p>
+                        </li>
+                        <br />
+                        <li>
+                            <b>Other Properties</b>:
+                            <br />
+                            \begin{aligned}[left*]
+                                Configurations &= 
+                                    \begin{array}{|l|}
+                                        \hline
+                                        0\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{1ex}
+                                    \begin{array}{|l|}
+                                        \hline
+                                        1\\
+                                        \hline
+                                    \end{array},
+                                    \\
+                                    \\
+                                Description &=
+                                    \begin{bmatrix} 
+                                        &alpha; \\
+                                        &beta;
+                                    \end{bmatrix}\hspace{0.5ex}(&alpha;,\ &beta; \in \mathbb{C}),
+                                    \\
+                                    \\
+                                Observation &= 
+                                    \begin{array}{|l|}
+                                        \hline
+                                        0\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{0.8ex}(|&alpha;|^2\ \%)
+                                    \hspace{1ex}
+                                    AND
+                                    \hspace{1.4ex}
+                                    \begin{array}{|l|}
+                                        \hline
+                                        1\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{0.8ex}(|&beta;|^2\ \%),
+                                    \\
+                                    \\
+                                Evolution &=
+                                    \begin{bmatrix} 
+                                        u & v \\
+                                        w & x
+                                    \end{bmatrix}\hspace{0.5ex}(u,\ v,\ w,\ x \in \mathbb{R})\hspace{0.5ex}(Unitary).\hspace{400ex}
+                            \end{aligned}
                         </li>
                     </ul>
                 </li>
