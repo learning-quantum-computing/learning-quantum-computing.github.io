@@ -43,7 +43,6 @@ date:   2020-02-28 22:00:00
       <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
   </font>
 </center>
-<br>
 <hr/>
 
 > * 📅 **_Week 6 - Representing the Quantum Nature through Mathematics_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-6-representing-the-quantum-nature-through-mathematics)
@@ -67,7 +66,6 @@ date:   2020-02-28 22:00:00
       <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
   </font>
 </center>
-<br>
 <hr/>
 
 > * 📅 **_Week 7 - The Fundamentals of Quantum Computing_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-7-the-fundamentals-of-quantum-computing)
@@ -106,7 +104,6 @@ date:   2020-02-28 22:00:00
       <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
   </font>
 </center>
-<br>
 <hr/>
 
 ## ©️ License
