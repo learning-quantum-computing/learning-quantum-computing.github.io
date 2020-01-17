@@ -7,6 +7,11 @@ image: "imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-2.jpg"
 date:   2020-02-28 22:00:00
 ---
 
+<center>
+    <img src="https://rubenandrebarreiro.github.io/learning-quantum-computing/imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-2.jpg" width="900" height="500">
+</center>
+***
+<br />
 ### 📂 List of Contents:
 > * 📅 **_Week 5 - Understanding the Quantum Information_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-5-understanding-the-quantum-information)
 >   * **_Encoding Quantum Nature through Information_**
