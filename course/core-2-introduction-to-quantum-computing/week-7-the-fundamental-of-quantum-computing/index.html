@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>The Fundamentals of Quantum Computing (Week 7) | Learning Quantum Computing (Online Web Course)</title>
+    <link rel="shortcut icon" href="../../../imgs/PNGs/quantum-atom.png">
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-responsive.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span3" style="position: fixed;" >
+          <ul class="nav nav-list">
+              
+              <div class="core-image">
+                  <img src="../../../imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-2.jpg">
+
+                  <div class="core-bottom-left-description">
+                      <a href="../../../#/2020/01/30/core-2-introduction-to-quantum-computing" style="color: white; font-size: 12pt;"> « Go back </a>
+                  </div>
+
+                  <div class="core-bottom-right-description-big">
+                      Introduction to Quantum Computing
+                  </div>
+
+                  <div class="core-bottom-right-description-small">
+                      Core 2
+                  </div>
+              </div>
+
+              
+              <hr>
+              
+              <h5>📍 <b>Select a topic:</b></h5>
+            
+              <span style="font-size: 10pt">
+                  <ul>
+                      <li><a href="#quantum-subsystems-represented-as-qubits"> <b>Quantum Subsystems (Represented as Qubits)</b> </a></li>
+                      <li><a href="#quantum-superposition-of-states"> <b>Quantum Superposition of States</b> </a></li>
+                      <li><a href="#quantum-superposition-of-states-through-practical-experiments"> <b>Quantum Superposition through Practical Experiments</b> </a></li>
+                      <li><a href="#quantum-entanglement-of-states"><b>Quantum Entanglement of States</b> </a></li>
+                      <li><a href="#quantum-teleportation"><b>Quantum Teleportation</b> </a></li>
+                      <li><a href="#reversibility-of-quantum-subsystems"><b>Reversibility of Quantum Subsystems</b> </a></li>
+                      <li><a href="#initialisation-of-quantum-subsystems"><b>Initialisation of Quantum Subsystems</b> </a></li>
+                      <li><a href="#quantum-operations-quantum-logic-gates"><b>Quantum Operations (Quantum Logic Gates)</b> </a></li>
+                      <li><a href="#quantum-systems-quantum-circuits"><b>Quantum Systems (Represented as Quantum Circuits)</b> </a></li>
+                      <li><a href="#uncertainty-principle-in-quantum-states"><b>Uncertainty Principle (in Quantum States)</b> </a></li>
+                      <li><a href="#quantum-measurement-of-states"><b>Quantum Measurement of States</b> </a></li>
+                      <li><a href="#quantum-coherence-and-decoherence"><b>Quantum Coherence and Decoherence</b> </a></li>
+                      <li><a href="#rutherford-scattering"><b>Rutherford's Scattering</b> </a></li>
+                      <li><a href="#quantum-parallelism"><b>Quantum Parallelism</b> </a></li>
+                      <li><a href="#existence-quantum-multiverse"><b>Existence of Quantum Multiverse</b> </a></li>
+                  </ul>
+              </span>
+           
+              <hr>
+              
+              <h5>⚠️ <b>Notes:</b></h5>
+              
+              <ul>
+                  <li>
+                    <span style="font-size: 12px !important;">
+                        <b><i>This week will contain theoretical lectures and practical exercises</i></b>
+                    </span>
+                  </li>
+              </ul>
+              
+              <hr>
+              
+              <h5>©️ <b>License:</b></h5>
+              <span style="font-size: 10pt">
+                  <ul>
+                     <li>
+                         <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                             <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+    
+                         </a>
+                    </li>
+                    <li>
+                        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+
+                    </li>              
+                </ul>
+              </span>
+          </ul>
+      </div>
+    
+      <div class="span9 main" style="position:absolute; margin-left: 340pt;">
+          <h1>The Fundamentals of Quantum Computing (Week 7)</h1>
+          
+          <br />
+          
+          <h3>Core 1 - Introduction to Quantum</h3>
+          
+          <br />
+          
+          <h4><img src="../../../imgs/authors/protrait-2d.png" width="40" height="40">&nbsp;&nbsp;Rúben André Barreiro</h4>
+          
+          <hr>
+          
+          <div id="quantum-subsystems-represented-as-qubits">
+              <h4><b>Quantum Subsystems (Represented as Qubits)</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        In an ordinary Classical RAM hardware module, the common quantum state of thousands of electrons is interpreted as only one classical bit.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The logical state is determined by the expectation value of its register contents (i.e., tension of a capacitor).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The interpretation as Classical Bits is performed by comparing the measured value to a defined threshold, while the great number of particles guarantees that the uncertainty of the measurement is small enough ( O(\(\frac{1}{\sqrt{n}}\) ) ) to make errors practically impossible.
+                    </p>  
+                </li>
+                <li>
+                    <p>
+                        \(P(Errors \ in \ Classical \ Computations) =\ 10^{-9}\), &nbsp;&nbsp; i.e., the acceptable minimum values for B.E.R. (Bit Error Rate)
+                    </p>  
+                </li>
+                <li>
+                    <p>
+                        \(P(Errors \ in \ Quantum \ Computations) =\ 10^{-3}\), &nbsp; i.e., the <u><i>current</i></u> acceptable minimum values for Q.B.E.R. (Quantum Bit Error Rate)
+                    </p>  
+                </li>
+                <li>
+                    <p>
+                         In a Quantum Computer, the information is represented directly as the common quantum state of many Quantum Subsystems (i.e., Qubits or Quantum Bits).
+                    </p>  
+                </li>
+                <li>
+                    <p>
+                        Each Quantum Subsystem is described by a combination of two "pure" states ("pure" basis) interpreted as \(\left |0 \right>\) and \(\left |1 \right>\).
+                    </p>
+                </li>
+                <br>
+                <li>
+                    <p>
+                        This combinations can be made by many ways, like per example:
+                    </p> 
+                    <ul>
+                        <li>
+                            Spin of a Particle;
+                        </li>
+                        <li>
+                            Polarisation of a Photon;
+                        </li>
+                        <li>
+                            Ground State and Excited State of an Ion;
+                        </li>
+                    </ul>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="quantum-superposition-of-states">
+              <h4><b>Quantum Superposition of States</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        An <u><i><b>Unit of Information</b></i></u> is the <u>capacity of some standard <i>data storage system</i> or <i>communication channel</i></u>, <u>used to measure the capacities of other <i>systems</i> and <i>channels</i></u>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The <u><i><b>Units of Information</b></i></u> can be also used to <u>measure the <i>entropy</i> of <i>random variables</i></u> and <u><i><b>information</b></i> contained in <i>messages</i></u>.
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="what-is-an-unit-of-measurement">
+              <h4><b>What is an Unit of Measurement?</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        An <u><i><b>Unit of Measurement</b></i></u> is a <u><i>magnitude</i> of a <i>quantity</i></u>, <u>defined</u> and <u>adopted</u> by <u>convention</u> or by <u>law</u>, that's used as a <u>standard</u> for <u><i>measurement</i> of the same kind of <i>quantity</i></u>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Any <u>other <i>quantity</i> of that kind</u> <u>can be expressed as a <i>multiple</i> of the <i>unit of measurement</i></u>.
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="what-is-data">
+              <h4><b>What is Data?</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        Data (or singular datum) are individual units of information.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Data describes a single quality or quantity of some object or phenomenon
+                    </p>  
+                </li>
+                <li>
+                    <p>
+                        In analytical processes, data are represented by variables.
+                    </p>  
+                </li>
+                <li>
+                    <p>
+                        Although the terms "data", "information" and "knowledge" are often used interchangeably, each of these terms has a distinct meaning.
+                    </p>  
+                </li>
+                <li>
+                    <p>
+                        In popular publications, data is sometimes said to be transformed into information when it is viewed in context or in post-analysis.
+                    </p>  
+                </li>
+                <li>
+                    <p>
+                        Data is measured, collected and reported, and analyzed, whereupon it can be visualized using graphs, images or other analysis tools.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Data as a general concept refers to the fact that some existing information or knowledge is represented or coded in some form suitable for better usage or processing.
+                    </p>  
+                </li>
+                <li>
+                    <p>
+                        Raw data ("unprocessed data") is a collection of numbers or characters before it has been "cleaned" and corrected by researchers.
+                    </p>  
+                </li>
+                <li>
+                    <p>
+                        Data processing commonly occurs by stages, and the "processed data" from one stage may be considered the "raw data" of the next stage.
+                    </p>  
+                </li>
+                <li>
+                    <p>
+                        Experimental data is data that is generated within the context of a scientific investigation by observation and recording.
+                    </p>  
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="what-is-knowledge">
+              <h4><b>What is Knowledge?</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                    
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="classical-information">
+              <h4><b>Classical Information</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="classical-units-of-information">
+              <h4><b>Classical Units of Information</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="what-is-a-bit">
+              <h4><b>What is a Bit?</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                    
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="classical-data-storage">
+              <h4><b>Classical Data Storage</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="practical-examples-of-used-sizes-of-units-of-classical-information">
+              <h4><b>Practical Examples of Used Sizes of Units of Classical Information</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="classical-information-theory">
+              <h4><b>Classical Information Theory</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="quantum-information">
+              <h4><b>Quantum Information</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="quantum-units-of-information">
+              <h4><b>Quantum Units of Information</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="what-is-a-qubit">
+              <h4><b>What is a Qubit?</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="quantum-data-storage">
+              <h4><b>Quantum Data Storage</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="bit-vs-pbit-vs-qubit-comparison-between-some-basic-units-of-information">
+              <h4><b>Bit vs. Pbit vs. Qubit - Comparison Between Some Basic Units of Information</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        <u><i><b>Bit (Classical Bit)</b> [bit]</i></u>:
+                    </p>
+                    
+                    <br />
+                    
+                    <img src="assets/images/schemes/bit-1.png" style="width: 400px; height: 200px" alt="Bit representation">
+                    
+                    <br />
+                    <br />
+                    
+                    <ul>
+                        <li>
+                            <p>
+                                <u>Basic Unit of <i><b>Classical Information</b></i></u>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <u>Capable of existing in just <i>one state <b>only</b></i>, <u><i>0</i></u> or <u><i>1</i></u>, at a <i>different time</i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <u><i><b>1D Point</b></i> in <i><b>only</b> one of the two states/points</i> (<u><i>0</i></u> and <u><i>1</i></u>)</u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <u><i>Determistic state</i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <u><i><b>n bits = n states</b></i></u>;
+                            </p>
+                        </li>
+                        <br />
+                        <li>
+                            <p>
+                                <b>Formula</b>:
+                                <br />
+                                \begin{aligned}[left*]
+                                    Bit &= \{ \ 0 \ &or; \ 1 \ \}\hspace{400ex}
+                                \end{aligned}
+                            </p>
+                        </li>
+                        <br />
+                        <li>
+                            <b>Other Properties</b>:
+                            <br />
+                            \begin{aligned}
+                                Configurations &= 
+                                    \begin{array}{|l|}
+                                        \hline
+                                        0\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{1ex}
+                                    \begin{array}{|l|}
+                                        \hline
+                                        1\\
+                                        \hline
+                                    \end{array},
+                                    \\
+                                    \\
+                                Description &=
+                                    \begin{bmatrix} 
+                                        1 \\
+                                        0
+                                    \end{bmatrix},
+                                    \\
+                                    \\
+                                Observation &= 
+                                    \begin{array}{|l|}
+                                        \hline
+                                        0\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{1ex}
+                                    OR
+                                    \hspace{1ex}
+                                    \begin{array}{|l|}
+                                        \hline
+                                        1\\
+                                        \hline
+                                    \end{array}\hspace{1ex}(Certainty),
+                                    \\
+                                    \\
+                                Evolution &=
+                                    \begin{bmatrix} 
+                                        0 & 1 \\
+                                        1 & 0
+                                    \end{bmatrix}\hspace{0.5ex}(Deterministic).\hspace{400ex}
+                            \end{aligned}
+                        </li>
+                    </ul>
+                </li>
+                
+                <br />
+                <br />
+                
+                <li>
+                    <p>
+                        <u><i><b>Pbit (Probabilistic Bit)</b> [p'bit]</i></u>:
+                    </p>
+                    
+                    <br />
+                    
+                    <img src="assets/images/schemes/pbit-1.png" style="width: 400px; height: 360px" alt="Pbit representation">
+                    
+                    <br />
+                    <br />
+                    
+                    <ul>
+                        <li>
+                            <p>
+                                Uses the <u><i><b>Bit</b></i></u> <u>(Basic Unit of <i>Classical Information</i></u>), as his basis, in a <u><i>random</i> fashion</u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <u>Capable of existing in just <i>one state <b>only</b></i>, <u><i>0</i></u> or <u><i>1</i></u>, at a <i>different time</i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <u><i><b>2D Line</b></i> between <i><b>only</b> one of the two states/points</i> (<u><i>0</i></u> and <u><i>1</i></u>)</u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <u><i>Non-Determistic/Probabilistic state</i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <u><i><b>n pbits = n states</b></i></u>;
+                            </p>
+                        </li>
+                        <br />
+                        <li>
+                            <p>
+                                <b>Formula</b>:
+                                <br />
+                                \begin{aligned}[left*]
+                                    Pbit &= \{ \ 0 \ : \ p \ , \ 1 \ : \ ( \ 1 \ - \ p \ ) \ \}\hspace{400ex}
+                                \end{aligned}
+                            </p>
+                        </li>
+                        <br />
+                        <li>
+                            <b>Other Properties</b>:
+                            <br />
+                            \begin{aligned}[left*]
+                                Configurations &= 
+                                    \begin{array}{|l|}
+                                        \hline
+                                        0\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{1ex}
+                                    \begin{array}{|l|}
+                                        \hline
+                                        1\\
+                                        \hline
+                                    \end{array},
+                                    \\
+                                    \\
+                                Description &=
+                                    \begin{bmatrix} 
+                                        p \\
+                                        1 - p
+                                    \end{bmatrix}\hspace{0.5ex}( \ p \in \mathbb{R} \ ),
+                                    \\
+                                    \\
+                                Observation &= 
+                                    \begin{array}{|l|}
+                                        \hline
+                                        0\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{0.8ex}(p \ \%)
+                                    \hspace{1ex}
+                                    OR
+                                    \hspace{1.4ex}
+                                    \begin{array}{|l|}
+                                        \hline
+                                        1\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{0.8ex}( \ [ \ 1 \ - \ p \ ] \ \% \ ),
+                                    \\
+                                    \\
+                                Evolution &=
+                                    \begin{bmatrix} 
+                                        1 - q & r \\
+                                        q & 1 - r
+                                    \end{bmatrix}\hspace{0.5ex}( \ q,\ r \in \mathbb{R} \ )\hspace{0.5ex}(Stochastic).
+                            \hspace{400ex}
+                            \end{aligned}
+                        </li>
+                    </ul>
+                </li>
+                
+                <br />
+                <br />
+                  
+                <li>
+                    <p>
+                        <u><i><b>Qubit (Quantum Bit)</b> ['kju.bit]</i> or <i>[k'bit]</i></u>:
+                    </p>
+                    
+                    <br />
+                    
+                    <img src="assets/images/schemes/qubit-1.png" style="width: 400px; height: 400px" alt="Qubit represent in Bloch Sphere">
+                    
+                    <br />
+                    <br />
+                    
+                    <ul>
+                        <li>
+                            <p>
+                                <u>Basic Unit of <i><b>Quantum Information</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <u>Capable of existing in <i>two states</i>, <u><i>0</i></u> or <u><i>1</i></u>, <i>simultaneously</i> or at a <i>different time</i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <u><i><b>3D Sphere</b></i> (usually represented by a <u><i><b>Bloch Sphere</b></i></u>) with <u><i>0</i></u> or <u><i>1</i></u> at the <u>poles</u> and an <u>infinite number of <i>superpositions</i> as states/points</u> on the <i>sphere</i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <u><i>Non-Determistic/Probabilistic states</i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <u><i><b>n qubits = 2<sup>n</sup> states</b></i></u>;
+                            </p>
+                        </li>
+                        <br />
+                        <li>
+                            <p>
+                                <b>Formula</b>:
+                                <br />
+                                \begin{aligned}[left*]
+                                    Qubit &= &alpha;\left| 0 \right> + &beta;\left| 1 \right>\hspace{400ex}
+                                \end{aligned}
+                            </p>
+                        </li>
+                        <br />
+                        <li>
+                            <b>Other Properties</b>:
+                            <br />
+                            \begin{aligned}[left*]
+                                Configurations &= 
+                                    \begin{array}{|l|}
+                                        \hline
+                                        0\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{1ex}
+                                    \begin{array}{|l|}
+                                        \hline
+                                        1\\
+                                        \hline
+                                    \end{array},
+                                    \\
+                                    \\
+                                Description &=
+                                    \begin{bmatrix} 
+                                        &alpha; \\
+                                        &beta;
+                                    \end{bmatrix}\hspace{0.5ex}( \ &alpha;,\ &beta; \in \mathbb{C} \ ),
+                                    \\
+                                    \\
+                                Observation &= 
+                                    \begin{array}{|l|}
+                                        \hline
+                                        0\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{0.8ex}( \ |&alpha;|^2 \ \% \ )
+                                    \hspace{1ex}
+                                    AND
+                                    \hspace{1.4ex}
+                                    \begin{array}{|l|}
+                                        \hline
+                                        1\\
+                                        \hline
+                                    \end{array}
+                                    \hspace{0.8ex}( \ |&beta;|^2 \ \% \ ),
+                                    \\
+                                    \\
+                                Evolution &=
+                                    \begin{bmatrix} 
+                                        u & v \\
+                                        w & x
+                                    \end{bmatrix}\hspace{0.5ex}( \ u,\ v,\ w,\ x \in \mathbb{R} \ )\hspace{0.5ex}(Unitary).\hspace{400ex}
+                            \end{aligned}
+                        </li>
+                    </ul>
+                </li>
+                  
+                <br />
+                <br />
+                
+                <img src="assets/images/schemes/bit-vs-pbit-vs-qubit-1.jpg" style="width: 400px; height: 600px" alt="Bit vs. Pbit vs. Qubit #1">
+                <img src="assets/images/schemes/bit-vs-pbit-vs-qubit-2.jpg" style="width: 400px; height: 600px" alt="Bit vs. Pbit vs. Qubit #2">
+                  
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="bloch-sphere">
+              <h4><b>Bloch Sphere</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                    
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="quantum-information-theory">
+              <h4><b>Quantum Information Theory</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p>
+                        
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
