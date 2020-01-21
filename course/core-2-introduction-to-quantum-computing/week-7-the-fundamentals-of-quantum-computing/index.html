@@ -11,6 +11,18 @@
     <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                processEscapes: true
+            }
+        });
+    </script>
+
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
   </head>
 <body>
 
@@ -118,7 +130,7 @@
                 </li>
                 <li>
                     <p>
-                        The <u><i><b>logical state</b> is determined by the <b>expectation value</b> of its <b>register</b> contents</i></u> (i.e., <u><i><b>tension</b> of a <b>capacitor</i></u>).
+                        The <u><i><b>logical state</b> is determined by the <b>expectation value</b> of its <b>register</b> contents</i></u> (i.e., <u><i><b>tension</b> of a <b>capacitor</b></i></u>).
                     </p>
                 </li>
                 <li>
@@ -210,9 +222,137 @@
               <ul>
                 <li>
                     <p>
-                        
+                        The <u><i><b>Quantum Superposition of States</b></i></u> is <u><i>one of the most important fundamental principles</i></u> of <u><i><b>Quantum Physics/Mechanics</b></i></u>.
                     </p>
                 </li>
+                <li>
+                    <p>
+                        This principle states that, any two (or more) <u><i><b>Quantum States</b></i></u> can be added together ("superposed") and the result will be another valid <u><i><b>Quantum State</b></i></u>, represented by the sum of the values of the same two (or more) <u><i><b>Quantum States</b></i></u>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        In mathematic terms, it refers to a property of solutions to the <u><i><b>Schrödinger's Equation</b></i></u>, because since the <u><i><b>Schrödinger's Equation</b></i></u> is linear, any linear combination of solutions will also be a solution.
+                    </p>
+                </li>
+                <br>
+                <li>
+                    <p>
+                        One of the most common examples of this fundamental principles is the state of a Qubit (Quantum Bit), as used in Quantum Computing and Quantum Information Processing, which is Quantum Superposition of the "Basis States" (i.e., $ \left| 0 \right> $ and $ \left| 1 \right> $), where $ &alpha; $ and $ &beta; $ are amplitutes of the probabilities of occurring $ \left| 0 \right> $ and $ \left| 1 \right> $, respectively:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                            
+                            </p>
+                            $ Qubit = &alpha;\left| 0 \right> + &beta;\left| 1 \right> $
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <p>
+                        Likely, in a Distribution of Probabilities with Discrete Values, the sum of the values of the <u><i><b>Quantum States</b></i></u> in a <u><i><b>Quantum Superposition of States</b></i></u> must always be equal to 1.0.
+                    </p>  
+                </li>
+                <li>
+                    <p>
+                        Thus, the probabilities of occurring each state in a <u><i><b>Quantum Superposition of States</b></i></u> are, in general, neither 0.0 nor 1.0.
+                    </p>  
+                </li>
+                <br>
+                <li>
+                    <p>
+                        The sum of the probabilities of occurring $ \left| 0 \right> $ and $ \left| 1 \right> $ in a Quantum Superposition of States, can be calculated by the sum of its absoulte values (i.e., its modulo values) squared, as the following presented:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                $ |&alpha;|^2 + |&beta;|^2 = 1 $, where $ &alpha; $, $ &beta; $ $ \in [0,1] $
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <p>
+                        A completely equilibrated <u><i><b>Quantum Superposition of States</b></i></u> with only two possible Quantum States (i.e., with 50/50 probability of occurring to both states), can have its probabilities calculated as the following, with $ &alpha; = \frac{1}{\sqrt{2}} $ and $ &beta; = \frac{1}{\sqrt{2}} $:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                $ |&alpha;|^2 + |&beta;|^2 = 1 \Leftrightarrow |\frac{1}{\sqrt{2}}|^2 + |\frac{1}{\sqrt{2}}|^2 = 1 \Leftrightarrow (\frac{1}{\sqrt{2}})^2 + (\frac{1}{\sqrt{2}})^2 = 1 \Leftrightarrow \Bigl(\frac{1^2}{(\sqrt{2})^2}\Bigr) + \Bigl(\frac{1^2}{(\sqrt{2})^2}\Bigr) = 1 \Leftrightarrow \frac{1}{2} + \frac{1}{2} = 1 \Leftrightarrow 1 = 1 $
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <p>
+                        This is also possible to calculate, through a <u><i><b>Equation System</b></i></u> with <u><i>2 variables</i></u>:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                \begin{aligned}[left*]
+                                    \begin{cases}
+                                        &alpha; = \frac{1}{\sqrt{2}}\\
+                                        \\
+                                        &beta; = \frac{1}{\sqrt{2}}\\
+                                        \\
+                                        |&alpha;|^2 + |&beta;|^2 = 1 \Leftrightarrow |\frac{1}{\sqrt{2}}|^2 + |\frac{1}{\sqrt{2}}|^2 = 1 \Leftrightarrow (\frac{1}{\sqrt{2}})^2 + (\frac{1}{\sqrt{2}})^2 = 1 \Leftrightarrow \Bigl(\frac{1^2}{(\sqrt{2})^2}\Bigr) + \Bigl(\frac{1^2}{(\sqrt{2})^2}\Bigr) = 1 \Leftrightarrow \frac{1}{2} + \frac{1}{2} = 1 \Leftrightarrow 1 = 1\hspace{400ex}
+                                    \end{cases}
+                                \end{aligned}
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <p>
+                        Therefore, it's obtained the following values for $&alpha;$ and $&beta;$:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                $ \therefore &alpha; = \frac{1}{\sqrt{2}} $ &and; $ &beta; = \frac{1}{\sqrt{2}} $
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <p>
+                        So, in graphically terms, the previously mentioned properties of the <u><i><b>Quantum Superposition of States</b></i></u> fundamental principle can be represented as the following;
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                <img src="assets/images/schemes/quantum-superposition-of-states-in-qubit-1.png" style="width: 400px; height: 60px" alt="Qubit in a Quantum Superposition of States #1">
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <img src="assets/images/schemes/quantum-superposition-of-states-in-qubit-2.png" style="width: 400px; height: 60px" alt="Qubit in a Quantum Superposition of States #2">
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <p>
+                        Other example of a physically observable manifestation of the wave nature of quantum systems is the interference peaks from an electron beam in a double-slit experiment, where the obtained projected pattern is very similar to the one obtained by diffraction of classical waves, similiarly to the presented as the following:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+
+                            </p>  
+                        </li>
+                    </ul>
+                </li>
+                
+                  
                 <li>
                     <p>
                         <img src="assets/images/schemes/quantum-superposition-of-states-in-qubit-1.png" style="width: 400px; height: 60px" alt="Qubit in a Quantum Superposition of States #1">
@@ -393,7 +533,7 @@
                 <br>
                 <li>
                     <p>
-                        <u><i><b>Soccer G.O.A.T. Discussion</b></i></u>:
+                        <u><i><b>Soccer G.O.A.T. Player Discussion (Cristiano Ronaldo or Lionel Messi?)</b></i></u>:
                     </p>
                     <ul>
                         <li>
@@ -487,7 +627,7 @@
                         </li>
                         <li>
                             <p>
-                                <img src="assets/images/schemes/quantum-superposition-of-states-in-cylinder-paradox-1.png" style="width: 380px; height: 54px" alt="Cylinder's Paradox in a Quantum Superposition of States #1">
+                                <img src="assets/images/schemes/quantum-superposition-of-states-in-cylinder-paradox-1.png" style="width: 380px; height: 60px" alt="Cylinder's Paradox in a Quantum Superposition of States #1">
                             </p>
                         </li>
                         <li>
@@ -510,7 +650,7 @@
                         </li>
                         <li>
                             <p>
-                                <img src="assets/images/schemes/quantum-superposition-of-states-in-cone-paradox-1.png" style="width: 380px; height: 54px" alt="Cone's Paradox in a Quantum Superposition of States #1">
+                                <img src="assets/images/schemes/quantum-superposition-of-states-in-cone-paradox-1.png" style="width: 388px; height: 60px" alt="Cone's Paradox in a Quantum Superposition of States #1">
                             </p>
                         </li>
                         <li>
