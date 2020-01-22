@@ -829,40 +829,122 @@
               <ul>
                 <li>
                     <p>
-                    
+                        A final review of the Quantum Logic Operators, can be demonstrated by the following table:
                     </p>
                     
                     <br>
-                    <br>
                     
                     <table class="purpleHorizon">
-                        <thead>
+                        <thead style="background-color: #9ACD32">
                             <tr>
                                 <th>
-                                    #
+                                    Type of Operator
                                 </th>
                                 <th>
-                                    Operator
+                                    Operator #
                                 </th>
                                 <th>
-                                    Gate #1
+                                    Operator Name
                                 </th>
                                 <th>
-                                    Gate #2
+                                    Gate Representation #1
                                 </th>
                                 <th>
-                                    Matrix
+                                    Gate Representation #2
                                 </th>
                                 <th>
-                                    Description
+                                    Matrix Representation
+                                </th>
+                                <th>
+                                    Description and Details
                                 </th>
                             </tr>
                         </thead>
                         
                         <tbody>
                             <tr>
+                                <td rowspan="10" style="background-color: #32CD32">
+                                    <h5>
+                                        <b>Single Qubit <br> Quantum <br> Logic Gates</b>
+                                    </h5>
+                                </td>
+                                
                                 <td>
                                     1
+                                </td>
+                                <td>
+                                    <u><i><b>Idle (I)</b></i></u>
+                                </td>
+                                
+                                <td>
+                                
+                                </td>
+                                
+                                <td>
+                                
+                                </td>
+                                
+                                <td>
+                                    $$ I =
+                                        \begin{bmatrix}
+                                            1 & 0 \\
+                                            0 & 1 \\
+                                        \end{bmatrix}\\
+                                    $$
+                                    $
+                                        (Identity \ Matrix)
+                                    $
+                                </td>
+                                
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                                <td>
+                                    2
+                                </td>
+                                
+                                <td>
+                                    <u><i><b>Hadamard (H)</b></i></u>
+                                </td>
+                                
+                                <td>
+                                    
+                                </td>
+                                
+                                <td>
+                                
+                                </td>
+                                
+                                <td>
+                                    $$
+                                        H =
+                                        \begin{bmatrix}
+                                            \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\
+                                                \frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{2}} \\
+                                        \end{bmatrix}
+                                    $$
+                                    $
+                                        (Hadamard \ Matrix)
+                                    $
+                                </td>
+                                
+                                <td>
+                                    <ul style="text-align: left">
+                                        <li>
+                                            Rotates (or flips) the Qubit 180&deg; (&pi; radians) around the axis $ \frac{(X+Z)}{\sqrt{2}} $ of the Bloch Sphere; 
+                                        </li>
+                                        <li>
+                                            Creates a Quantum Superposition of States when applied at the Basis $ \left| 0 \right> $ or $ \left| 1 \right> $ of the Bloch Sphere;
+                                        </li>
+                                    </ul>
+                                </td>
+                            <tr>
+                                
+                            </tr>
+                            <tr>
+                                <td>
+                                    3
                                 </td>
                                 <td>
                                     <u><i><b>Pauli-X (X)</b></i></u>
@@ -874,18 +956,79 @@
                                     
                                 </td>
                                 <td>
-                                    
+                                    $$
+                                        X =
+                                        \begin{bmatrix} 
+                                            0 & 1 \\
+                                            1 & 0 \\
+                                        \end{bmatrix}
+                                    $$
+                                    $
+                                        (Pauli&#45;X\ \ Matrix)
+                                    $
                                 </td>
                                 <td>
                                     <ul style="text-align: left">
                                         <li>
-                                            Rotates (or flips) the Qubit 180&deg; (&pi; radians) around the X-axis of the Bloch Sphere;
+                                            <p>
+                                                Rotates (or flips) the Qubit 180&deg; (&pi; radians) around the X-axis of the Bloch Sphere;
+                                            </p>
                                         </li>
                                         <li>
-                                            It's equivalent to the Classical Not Gate;    
+                                            <p>
+                                                It's equivalent to the Classical NOT Gate;
+                                            </p>
                                         </li>
                                         <li>
-                                            Maps $ \left| 0 \right> \rightarrow \left| 1 \right> $ and $ \left| 1 \right> \rightarrow \left| 0 \right> $;
+                                            <p>
+                                                Don't result at any changes to the Quantum Basis States $ \left| + \right> $ and $ \left| - \right> $:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        $ \left| + \right> \rightarrow \left| + \right> $;
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        $ \left| - \right> \rightarrow \left| - \right> $;
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Performs the following Mappings to the Quantum Basis States $ \left| +i \right> $ and $ \left| -i \right> $:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        $ \left| +i \right> \rightarrow \left| -i \right> $;
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        $ \left| -i \right> \rightarrow \left| +i \right> $;
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Performs the following Mappings to the Quantum Basis States $ \left| 0 \right> $ and $ \left| 1 \right> $:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        $ \left| 0 \right> \rightarrow \left| 1 \right> $;
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        $ \left| 1 \right> \rightarrow \left| 0 \right> $;
+                                                    </p>
+                                                </li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </td>
@@ -893,70 +1036,87 @@
                             
                             <tr>
                                 <td>
-                                    2
+                                    4
                                 </td>
                                 <td>
                                     <u><i><b>Pauli-Y (Y)</b></i></u>
                                 </td>
+                                
                                 <td>
-                                    cell3_2
                                 </td>
+                                
                                 <td>
-                                    cell4_2
                                 </td>
+                                
                                 <td>
-                                    cell5_2
+                                    $$
+                                        Y =
+                                        \begin{bmatrix} 
+                                            0 & -i \\
+                                            i & 0 \\
+                                        \end{bmatrix}\ ( \ i \in \mathbb{C} \ )
+                                    $$
+                                    $
+                                        (Pauli&#45;Y\ \ Matrix)
+                                    $
                                 </td>
                                 <td>
                                     <ul style="text-align: left">
                                         <li>
                                             Rotates (or flips) the Qubit 180&deg; (&pi; radians) around the Y-axis of the Bloch Sphere;
                                         </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    3
-                                </td>
-                                <td>
-                                    <u><i><b>Pauli-Z (Z)</b></i></u>
-                                </td>
-                                <td>
-                                    cell3_3
-                                </td>
-                                <td>
-                                    cell4_3
-                                </td>
-                                <td>
-                                    cell5_3
-                                </td>
-                                <td>
-                                    <ul style="text-align: left">
                                         <li>
-                                            Rotates (or flips) the Qubit 180&deg; (&pi; radians) around the Z-axis of the Bloch Sphere;
+                                            <p>
+                                                Performs the following Mappings to the Quantum Basis States $ \left| + \right> $ and $ \left| - \right> $:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        $ \left| + \right> \rightarrow \left| - \right> $;
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        $ \left| - \right> \rightarrow \left| + \right> $;
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Don't result at any changes to the Quantum Basis States $ \left| +i \right> $ and $ \left| -i \right> $:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        $ \left| +i \right> \rightarrow \left| +i \right> $;
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        $ \left| -i \right> \rightarrow \left| -i \right> $;
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Performs the following Mappings to the Quantum Basis States $ \left| 0 \right> $ and $ \left| 1 \right> $:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        $ \left| 0 \right> \rightarrow \left| 1 \right> $;
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        $ \left| 1 \right> \rightarrow \left| 0 \right> $;
+                                                    </p>
+                                                </li>
+                                            </ul>
                                         </li>
                                     </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    4
-                                </td>
-                                <td>
-                                    <u><i><b>Idle (ID)</b></i></u>
-                                </td>
-                                <td>
-                                    cell3_3
-                                </td>
-                                <td>
-                                    cell4_3
-                                </td>
-                                <td>
-                                    cell5_3
-                                </td>
-                                <td>
-                                    cell6_3
                                 </td>
                             </tr>
                             <tr>
@@ -964,46 +1124,126 @@
                                     5
                                 </td>
                                 <td>
-                                    <u><i><b>Hadamard (H)</b></i></u>
+                                    <u><i><b>Pauli-Z (Z)</b></i></u>
                                 </td>
+                                
                                 <td>
-                                    cell3_3
                                 </td>
+                                
                                 <td>
-                                    cell4_3
                                 </td>
+                                
                                 <td>
-                                    cell5_3
+                                    $$
+                                        Z =
+                                        \begin{bmatrix} 
+                                            1 & 0 \\
+                                            0 & -1 \\
+                                        \end{bmatrix}
+                                    $$
+                                    $
+                                        (Pauli&#45;Z\ \ Matrix)
+                                    $
                                 </td>
+                                
                                 <td>
                                     <ul style="text-align: left">
                                         <li>
-                                            Represents a rotation of 180&deg; (&pi; radians) on the axis $ \frac{(X+Z)}{\sqrt{2}} $; 
+                                            Rotates (or flips) the Qubit 180&deg; (&pi; radians) around the Z-axis of the Bloch Sphere;
                                         </li>
                                         <li>
-                                            Creates a Quantum Superposition of States when applied at the Basis $ \left| 0 \right> $ and $ \left| 1 \right> $ of the Bloch Sphere;
+                                            <p>
+                                                Performs the following Mappings to the Quantum Basis States $ \left| + \right> $ and $ \left| - \right> $:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        $ \left| + \right> \rightarrow \left| - \right> $;
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        $ \left| - \right> \rightarrow \left| + \right> $;
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Performs the following Mappings to the Quantum Basis States $ \left| +i \right> $ and $ \left| -i \right> $:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        $ \left| +i \right> \rightarrow \left| -i \right> $;
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        $ \left| -i \right> \rightarrow \left| +i \right> $;
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Don't result at any changes to the Quantum Basis States $ \left| 0 \right> $ and $ \left| 1 \right> $:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        $ \left| 0 \right> \rightarrow \left| 0 \right> $;
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        $ \left| 1 \right> \rightarrow \left| 1 \right> $;
+                                                    </p>
+                                                </li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </td>
+                            </tr>
+                            <tr>
+                                
+                            </tr>
+                            <tr>
+                                
                             </tr>
                             <tr>
                                 <td>
                                     6
                                 </td>
                                 <td>
-                                    <u><i><b>Phase (S, P)</b></i></u>
+                                    <u><i><b>Phase(S,P) </b></i></u>
                                 </td>
+                                
                                 <td>
-                                    cell3_4
                                 </td>
+                                
                                 <td>
-                                    cell4_4
                                 </td>
+                                
                                 <td>
-                                    cell5_4
+                                    <ul style="text-align: left">
+                                        <li>
+                                            \begin{aligned}[left*]
+                                                Z = \begin{bmatrix} 
+                                                        1 & 0 \\
+                                                        0 & -1
+                                                    \end{bmatrix}\hspace{2ex}
+                                            \end{aligned}
+                                        </li>
+                                    </ul>
                                 </td>
+                                
                                 <td>
-                                    cell6_4
+                                    <ul style="text-align: left">
+                                        <li>
+                                            Rotates (or flips) the Qubit 180&deg; (&pi; radians) around the Z-axis of the Bloch Sphere;
+                                        </li>
+                                    </ul>
                                 </td>
                             </tr>
                             <tr>
@@ -1027,11 +1267,16 @@
                                 </td>
                             </tr>
                             <tr>
+                                <td rowspan="6" style="background-color: #3CB371">
+                                    <h5>
+                                        <b>Multi Qubit <br> Quantum <br> Logic Gates</b>
+                                    </h5>
+                                </td>
                                 <td>
                                     8
                                 </td>
                                 <td>
-                                    <u><i><b>Controlled Not<br>(CNOT, CX)</b></i></u>
+                                    <u><i><b>Controlled-X <br> (Controlled-NOT, CNOT, CX)</b></i></u>
                                 </td>
                                 <td>
                                     cell3_6
@@ -1040,7 +1285,18 @@
                                     cell4_6
                                 </td>
                                 <td>
-                                    cell5_6
+                                    <ul style="text-align: left">
+                                        <li>
+                                            \begin{aligned}[left*]
+                                                C_X = \begin{bmatrix} 
+                                                        1 & 0 & 0 & 0\\
+                                                        0 & 1 & 0 & 0\\
+                                                        0 & 0 & 0 & 1\\
+                                                        0 & 0 & 1 & 0 
+                                                    \end{bmatrix}\hspace{2ex}
+                                            \end{aligned}
+                                        </li>
+                                    </ul>
                                 </td>
                                 <td>
                                     <ul style="text-align: left">
@@ -1058,7 +1314,7 @@
                                     9
                                 </td>
                                 <td>
-                                    <u><i><b>Controlled Y (CY)</b></i></u>
+                                    <u><i><b>Controlled-Y (CY)</b></i></u>
                                 </td>
                                 <td>
                                     cell3_7
@@ -1067,7 +1323,18 @@
                                     cell4_7
                                 </td>
                                 <td>
-                                    cell5_7
+                                    <ul style="text-align: left">
+                                        <li>
+                                            \begin{aligned}[left*]
+                                                C_Y = \begin{bmatrix} 
+                                                        1 & 0 & 0 & 0\\
+                                                        0 & 1 & 0 & 0\\
+                                                        0 & 0 & 0 & -i\\
+                                                        0 & 0 & i & 0 
+                                                    \end{bmatrix}\hspace{0.5ex}( \ i \in \mathbb{C} \ ) \hspace{2ex}
+                                            \end{aligned}
+                                        </li>
+                                    </ul>
                                 </td>
                                 <td>
                                     <ul style="text-align: left">
@@ -1085,7 +1352,7 @@
                                     10
                                 </td>
                                 <td>
-                                    <u><i><b>Controlled Z (CZ)</b></i></u>
+                                    <u><i><b>Controlled-Z (CZ)</b></i></u>
                                 </td>
                                 <td>
                                     cell3_7
@@ -1094,7 +1361,55 @@
                                     cell4_7
                                 </td>
                                 <td>
-                                    cell5_7
+                                    <ul style="text-align: left">
+                                        <li>
+                                            \begin{aligned}[left*]
+                                                C_Z = \begin{bmatrix} 
+                                                        1 & 0 & 0 & 0\\
+                                                        0 & 1 & 0 & 0\\
+                                                        0 & 0 & 1 & 0\\
+                                                        0 & 0 & 0 & -1 
+                                                    \end{bmatrix}\hspace{2ex}
+                                            \end{aligned}
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul style="text-align: left">
+                                        <li>
+                                            Acts on 2 or more Qubits, where 1 (or more) Qubits act as a control value for some operation;
+                                        </li>
+                                        <li>
+                                            It's similar to a Classical Conditional clause/procedure (If... Then... Else);
+                                        </li>
+                                    </ul>
+                            </tr>
+                            <tr>
+                                <td>
+                                    11
+                                </td>
+                                <td>
+                                    <u><i><b>Controlled-U (CU)</b></i></u>
+                                </td>
+                                <td>
+                                    cell3_7
+                                </td>
+                                <td>
+                                    cell4_7
+                                </td>
+                                <td>
+                                    <ul style="text-align: left">
+                                        <li>
+                                            \begin{aligned}[left*]
+                                                C_U = \begin{bmatrix} 
+                                                        1 & 0 & 0 & 0\\
+                                                        0 & 1 & 0 & 0\\
+                                                        0 & 0 & U_{00} & U_{01}\\
+                                                        0 & 0 & U_{10} & U_{11} 
+                                                    \end{bmatrix}\hspace{2ex}
+                                            \end{aligned}
+                                        </li>
+                                    </ul>          
                                 </td>
                                 <td>
                                     <ul style="text-align: left">
@@ -1120,7 +1435,19 @@
                                     cell4_7
                                 </td>
                                 <td>
-                                    cell5_7
+                                    
+                                    <ul style="text-align: left">
+                                        <li>
+                                            \begin{aligned}[left*]
+                                                SWAP = \begin{bmatrix} 
+                                                            1 & 0 & 0 & 0\\
+                                                            0 & 0 & 1 & 0\\
+                                                            0 & 1 & 0 & 0\\
+                                                            0 & 0 & 0 & 1 
+                                                        \end{bmatrix}\hspace{2ex}
+                                            \end{aligned}
+                                        </li>
+                                    </ul>
                                 </td>
                                 <td>
                                     <ul style="text-align: left">
@@ -1144,7 +1471,22 @@
                                     cell4_7
                                 </td>
                                 <td>
-                                    cell5_7
+                                    <ul style="text-align: left">
+                                        <li>
+                                            \begin{aligned}[left*]
+                                                Toffoli = \begin{bmatrix} 
+                                                            1 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
+                                                            0 & 1 & 0 & 0 & 0 & 0 & 0 & 0\\
+                                                            0 & 0 & 1 & 0 & 0 & 0 & 0 & 0\\
+                                                            0 & 0 & 0 & 1 & 0 & 0 & 0 & 0\\
+                                                            0 & 0 & 0 & 0 & 1 & 0 & 0 & 0\\
+                                                            0 & 0 & 0 & 0 & 0 & 1 & 0 & 0\\
+                                                            0 & 0 & 0 & 0 & 0 & 0 & 0 & 1\\
+                                                            0 & 0 & 0 & 0 & 0 & 0 & 1 & 0
+                                                    \end{bmatrix}\hspace{2ex}
+                                            \end{aligned}
+                                        </li>
+                                    </ul>
                                 </td>
                                 <td>
                                     <ul style="text-align: left">
@@ -1164,6 +1506,12 @@
                                 </td>
                             </tr>
                             <tr>
+                                
+                                <td rowspan="2" style="background-color: #008000">
+                                    <h5>
+                                        <b>Other <br> Quantum <br> Logic Gates</b>
+                                    </h5>
+                                </td>
                                 <td>
                                     13
                                 </td>
@@ -1174,10 +1522,10 @@
                                     cell3_7
                                 </td>
                                 <td>
-                                    cell4_7
+                                    N/A
                                 </td>
                                 <td>
-                                    cell5_7
+                                    N/A
                                 </td>
                                 <td>
                                     <ul style="text-align: left">
