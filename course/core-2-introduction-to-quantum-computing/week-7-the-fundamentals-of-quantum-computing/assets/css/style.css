@@ -83,7 +83,7 @@ html, body {
 table.purpleHorizon {
   border: 4px solid #2F4F4F;
   background-color: #555555;
-  width: 1280px;
+  width: 800px;
   height: 260px;
   text-align: center;
   border-collapse: collapse;
@@ -93,7 +93,7 @@ table.purpleHorizon td, table.purpleHorizon th {
   padding: 5px 2px;
 }
 table.purpleHorizon tbody td {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   color: #FFFFFF;
 }
@@ -102,7 +102,7 @@ table.purpleHorizon thead {
   border-bottom: 2px solid #2F4F4F;
 }
 table.purpleHorizon thead th {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   color: #FFFFFF;
   text-align: center;
