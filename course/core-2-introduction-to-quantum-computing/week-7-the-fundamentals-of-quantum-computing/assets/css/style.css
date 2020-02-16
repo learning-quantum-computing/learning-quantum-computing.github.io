@@ -93,7 +93,7 @@ table.purpleHorizon td, table.purpleHorizon th {
   padding: 5px 2px;
 }
 table.purpleHorizon tbody td {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   color: #FFFFFF;
 }
@@ -102,7 +102,7 @@ table.purpleHorizon thead {
   border-bottom: 2px solid #2F4F4F;
 }
 table.purpleHorizon thead th {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   color: #FFFFFF;
   text-align: center;
