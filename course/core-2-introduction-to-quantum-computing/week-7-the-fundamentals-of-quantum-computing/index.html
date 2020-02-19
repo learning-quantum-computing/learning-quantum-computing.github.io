@@ -2238,13 +2238,85 @@
                                             It <u><i>ensures</i></u> that <u><i>nothing is applied</i></u> to a <u><i><b>Qubit</b></i></u> <u><i><b>(Quantum Bit)</b></i></u> for <u><i>one unit</i></u> of <u><i><b>Quantum Logic Gate/Operator</b></i></u> <u><i>time</i></u>;
                                         </p>
                                     </li>
+                                    <li>
+                                        <p style="text-align: justify">
+                                            <u><i>Don't result at any changes</i></u> to the <u><i><b>Quantum Basis States</b></i></u> <u><i><b>$ \left| 0 \right> $</b></i></u> and <u><i><b>$ \left| 1 \right> $</b></i></u>:
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>$ \left| 0 \right> \rightarrow \left| 0 \right> $</b></i></u>;
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>$ \left| 1 \right> \rightarrow \left| 1 \right> $</b></i></u>;
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p style="text-align: justify">
+                                            <u><i>Don't result at any changes</i></u> to the <u><i><b>Quantum Basis States</b></i></u> <u><i><b>$ \left| + \right> $</b></i></u> and <u><i><b>$ \left| - \right> $</b></i></u>:
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>$ \left| + \right> \rightarrow \left| + \right> $</b></i></u>;
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>$ \left| - \right> \rightarrow \left| - \right> $</b></i></u>;
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p style="text-align: justify">
+                                            <u><i>Don't result at any changes</i></u> to the <u><i><b>Quantum Basis States</b></i></u> <u><i><b>$ \left| +i \right> $</b></i></u> and <u><i><b>$ \left| -i \right> $</b></i></u>:
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>$ \left| +i \right> \rightarrow \left| +i \right> $</b></i></u>;
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>$ \left| -i \right> \rightarrow \left| -i \right> $</b></i></u>;
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p style="text-align: justify">
+                                            It's defined by the following <u><i>Matrix Representation</i></u>:
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p style="text-align: left">
+                                                    $$
+                                                        I =
+                                                        \begin{bmatrix} 
+                                                            1 & 0 \\
+                                                            0 & 1 \\
+                                                        \end{bmatrix}\hspace{1000ex}
+                                                    $$
+                                                    $
+                                                        (Pauli&#45;I\ \ / \ Identity\ \ Matrix)
+                                                    $
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </li>
                                     
                                     <br />
                                     <br />
                                     
                                     <li>
                                         <p style="text-align: justify">
-                                            You can apply the <u><i><b>Pauli-I (I, Idle, Identity) Single Quantum Logic Gate/Operator</b></i></u> to a <u><i><b>Qubit</b></i></u> <u><i><b>(Quantum Bit)</b></i></u>,
+                                            You can apply the <u><i><b>Pauli-I</b></i></u> <u><i><b>(I, Idle, Identity)</b></i></u> <u><i><b>Single Quantum Logic Gate/Operator</b></i></u> to a <u><i><b>Qubit</b></i></u> <u><i><b>(Quantum Bit)</b></i></u>,
                                             <br>
                                             in the <u><i><b>OpenQASM Framework</b></i></u> <u><i><b>(Open Quantum Assembly Language)</b></i></u>, as demonstrated following:
                                             <script src="https://gist.github.com/rubenandrebarreiro/c6f9cf1f26648a3eb0b0f40d3b34cc03.js"></script>
@@ -2265,47 +2337,141 @@
                                 <ul>
                                     <li>
                                         <p style="text-align: justify">
-                                            <u><i><b>Rotates</b></i></u> (or <u><i><b>flips</b></i></u>) the <u><i><b>Qubit</b></i></u> (<u><i><b>Quantum Bit</b></i></u>) 180&deg; (&pi; radians) around the axis $ \frac{(\hat X + \hat Z)}{\sqrt{2}} $ of the <u><i><b>Bloch Sphere</b></i></u>; 
+                                            <u><i><b>Rotates</b></i></u> (or <u><i><b>flips</b></i></u>) the <u><i><b>Qubit</b></i></u> (<u><i><b>Quantum Bit</b></i></u>) <u><i><b>180&deg;</b></i></u> (<u><i><b>&pi; radians</b></i></u>) <u><i>around</i></u> the <u><i><b>$ \frac{(\hat X + \hat Z)}{\sqrt{2}} $ Axis</b></i></u> of the <u><i><b>Bloch Sphere</b></i></u>; 
                                         </p>
                                     </li>
                                     <li>
                                         <p style="text-align: justify">
-                                            In other words, starts by <u><i><b>rotating</b></i></u> (or <u><i><b>flipping</b></i></u>) the <u><i><b>Qubit</b></i></u> (<u><i><b>Quantum Bit</b></i></u>) 180&deg; (&pi; radians) around the <u><i><b>Z-Axis</b></i></u> and then,
+                                            In other words, starts by <u><i><b>rotating</b></i></u> (or <u><i><b>flipping</b></i></u>) the <u><i><b>Qubit</b></i></u> (<u><i><b>Quantum Bit</b></i></u>) <u><i><b>180&deg;</b></i></u> (<u><i><b>&pi; radians</b></i></u>) <u><i>around</i></u> the <u><i><b>Z-Axis</b></i></u> and then,
                                             <br />
-                                            <u><i><b>rotates</b></i></u> (or <u><i><b>flips</b></i></u>) the <u><i><b>Qubit</b></i></u> (<u><i><b>Quantum Bit</b></i></u>) again 90&deg; (<sup>&pi;</sup>&frasl;<sub>2</sub> radians), but now around the <u><i><b>Y-Axis</b></i></u>;
+                                            <u><i><b>rotates</b></i></u> (or <u><i><b>flips</b></i></u>) the <u><i><b>Qubit</b></i></u> (<u><i><b>Quantum Bit</b></i></u>) <u><i>again</i></u> <u><i><b>90&deg;</b></i></u> (<sup>&pi;</sup>&frasl;<sub>2</sub> radians), but <u><i>now around</i></u> the <u><i><b>Y-Axis</b></i></u>;
                                         </p>
                                     </li>
+                                    
+                                    <br />
+                                    <br />
+                                    
                                     <li>
                                         <p style="text-align: justify">
-                                            You can apply the <u><i><b>Hadamard (H) Single Quantum Logic Gate/Operator</b></i></u> to a <u><i><b>Qubit</b></i></u> <u><i><b>(Quantum Bit)</b></i></u>,
-                                            <br>
-                                            in the <u><i><b>OpenQASM Framework</b></i></u> <u><i><b>(IBM's Open Quantum Assembly Language)</b></i></u>, as demonstrated following:
-                                            <script src="https://gist.github.com/rubenandrebarreiro/071a7d771482ac7dc8e95650b3dbd608.js"></script>
-                                        </p>  
+                                            The <u><i><b>Hadamard</b></i></u> <u><i><b>(H)</b></i></u> <u><i><b>Quantum Logic Gate/Operator</b></i></u> can be viewed, when applied from some <u><i><b>Quantum Basis States</b></i></u>,
+                                            <br />
+                                            through <u><i>spherical geometric transformations</i></u> in the <u><i><b>Bloch Sphere</b></i></u> and from the <u><i>probabilities</i></u> of the respectively
+                                            <br />
+                                            <u><i><b>Quantum Measurement of States</b></i></u>' <u><i>outcomes</i></u>, in a <u><i><b>Histogram/Vertical Bars' Chart</b></i></u>, as demonstrated in the following examples:
+                                        </p>
+                                        
+                                        <br />
+                                        
+                                        <ul>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>$ \left| 0 \right> \rightarrow \left| + \right> $</b></i></u>:
+                                                </p>
+                                                
+                                                <br />
+                                                
+                                            </li>
+                                            
+                                            <br />
+                                            <br />
+                                            
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>$ \left| + \right> \rightarrow \left| 0 \right> $</b></i></u>:
+                                                </p>
+                                                
+                                                <br />
+                                                
+                                            </li>
+                                            
+                                            <br />
+                                            <br />
+                                            
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>$ \left| 1 \right> \rightarrow \left| - \right> $</b></i></u>:
+                                                </p>
+                                                
+                                                <br />
+                                                
+                                            </li>
+                                            
+                                            <br />
+                                            <br />
+                                            
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>$ \left| - \right> \rightarrow \left| 1 \right> $</b></i></u>:
+                                                </p>
+                                                
+                                                <br />
+                                                
+                                            </li>
+                                            
+                                            <br />
+                                            <br />
+                                            
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>$ \left| +i \right> \rightarrow \left| -i \right> $</b></i></u>:
+                                                </p>
+                                                
+                                                <br />
+                                                
+                                            </li>
+                                            
+                                            <br />
+                                            <br />
+                                            
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>$ \left| -i \right> \rightarrow \left| +i \right> $</b></i></u>:
+                                                </p>
+                                                
+                                                <br />
+                                                
+                                            </li>
+                                        </ul>
                                     </li>
+                                    
+                                    <br />
+                                    <br />
+                                    
                                     <li>
                                         <p style="text-align: justify">
-                                            You can apply the <u><i><b>Hadamard (H) Single Quantum Logic Gate/Operator</b></i></u> to a <u><i><b>Qubit</b></i></u> <u><i><b>(Quantum Bit)</b></i></u>,
+                                            You can apply the <u><i><b>Hadamard</b></i></u> <u><i><b>(H)</b></i></u> <u><i><b>Single Quantum Logic Gate/Operator</b></i></u> to a <u><i><b>Qubit</b></i></u> <u><i><b>(Quantum Bit)</b></i></u>,
                                             <br>
-                                            in the <u><i><b>Qiskit Framework</b></i></u> <u><i><b>(IBM Q Experience)</b></i></u>, as demonstrated following:
-                                            <script src="https://gist.github.com/rubenandrebarreiro/efec330687a672cb23d8e37bdf573f0a.js"></script>
-                                        </p>  
-                                    </li>
-                                    <li>
-                                        <p style="text-align: justify">
-                                            You can apply the <u><i><b>Hadamard (H) Single Quantum Logic Gate/Operator</b></i></u> to a <u><i><b>Qubit</b></i></u> <u><i><b>(Quantum Bit)</b></i></u>,
-                                            <br>
-                                            in the <u><i><b>Cirq Framework</b></i></u> <u><i><b>(Google AI Quantum)</b></i></u>, as demonstrated following:
-                                            <script src="https://gist.github.com/rubenandrebarreiro/eed0c45d1318284c342606d2ae08c166.js"></script>
-                                        </p>  
-                                    </li>
-                                    <li>
-                                        <p style="text-align: justify">
-                                            You can apply the <u><i><b>Hadamard (H) Single Quantum Logic Gate/Operator</b></i></u> to a <u><i><b>Qubit</b></i></u> <u><i><b>(Quantum Bit)</b></i></u>,
-                                            <br>
-                                            in the <u><i><b>Q# Framework</b></i></u> <u><i><b>(Microsoft Quantum Development Kit - QDK)</b></i></u>, as demonstrated following:
-                                            <script src="https://gist.github.com/rubenandrebarreiro/aa4738c15a7b22285ddb2073588b1248.js"></script>
-                                        </p>  
+                                            in some <u><i><b>Quantum Frameworks</b></i></u>, as demonstrated int the following examples:
+                                        </p>
+                                        
+                                        <br />
+                                        
+                                        <ul>
+                                            <li>
+                                                 <p style="text-align: justify">
+                                                    <u><i><b>OpenQASM Framework</b></i></u> <u><i><b>(IBM's Open Quantum Assembly Language)</b></i></u>, as demonstrated following:
+                                                    <script src="https://gist.github.com/rubenandrebarreiro/071a7d771482ac7dc8e95650b3dbd608.js"></script>
+                                                </p>  
+                                            </li>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>Qiskit Framework</b></i></u> <u><i><b>(IBM Q Experience)</b></i></u>, as demonstrated following:
+                                                    <script src="https://gist.github.com/rubenandrebarreiro/efec330687a672cb23d8e37bdf573f0a.js"></script>
+                                                </p>  
+                                            </li>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>Cirq Framework</b></i></u> <u><i><b>(Google AI Quantum)</b></i></u>, as demonstrated following:
+                                                    <script src="https://gist.github.com/rubenandrebarreiro/eed0c45d1318284c342606d2ae08c166.js"></script>
+                                                </p>  
+                                            </li>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>Q# Framework</b></i></u> <u><i><b>(Microsoft Quantum Development Kit - QDK)</b></i></u>, as demonstrated following:
+                                                    <script src="https://gist.github.com/rubenandrebarreiro/aa4738c15a7b22285ddb2073588b1248.js"></script>
+                                                </p>  
+                                            </li>
+                                        </ul>
                                     </li>
                                 </ul>
                             </li>
@@ -2322,7 +2488,7 @@
                                 <ul>
                                     <li>
                                         <p style="text-align: justify">
-                                            <u><i><b>Rotates</b></i></u> (or <u><i><b>flips</b></i></u>) the <u><i><b>Qubit</b></i></u> <u><i><b>180&deg;</b></i></u> (<u><i><b>&pi; radians</b></i></u>) <u><i>around</i></u> the <u><i><b>X-axis</b></i></u> of the <u><i><b>Bloch Sphere</b></i></u>;
+                                            <u><i><b>Rotates</b></i></u> (or <u><i><b>flips</b></i></u>) the <u><i><b>Qubit</b></i></u> <u><i><b>180&deg;</b></i></u> (<u><i><b>&pi; radians</b></i></u>) <u><i>around</i></u> the <u><i><b>X-Axis</b></i></u> of the <u><i><b>Bloch Sphere</b></i></u>;
                                         </p>
                                     </li>
                                     <li>
