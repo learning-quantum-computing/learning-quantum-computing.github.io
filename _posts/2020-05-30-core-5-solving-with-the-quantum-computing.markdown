@@ -39,7 +39,7 @@ date:   2020-05-30 22:00:00
 >           * Classical Cryptography
 >           * Post-Quantum Cryptography
 >           * Quantum Cryptography
->       * **_Roadmap of Cryptography_**
+>           * Roadmap of Cryptography
 >   * Practical Exercises
 
 ```
@@ -59,6 +59,9 @@ date:   2020-05-30 22:00:00
 
 > * 📅 **_Week 18 - Interacting with the Classical Communications (Part 1)_** [(**_Click here_**)](course/core-5-solving-with-the-quantum-computing/week-18-interacting-with-the-classical-communications-part-1)
 >   * **_Revising the Classical Communications_**
+>       * Classical Internet
+>           * Classical Communication Channel
+>           * Classical Networks
 >       * Communication Data Packet
 >       * O.S.I. Model (Open System Interconnection Model)
 >           * Protocol Layering/Encapsuling
@@ -189,7 +192,7 @@ date:   2020-05-30 22:00:00
 </center>
 <hr/>
 
-> * 📅 **_Week 20 - Interacting with the Quantum Communications (Part 1)_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-20-interacting-with-the-quantum-communications-part-1)
+> * 📅 **_Week 21 - Interacting with the Quantum Communications (Part 1)_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-21-interacting-with-the-quantum-communications-part-1)
 > * **_Revising some Important Principles from Quantum Physics/Mechanics_**
 >   * Quantum Measurement of States
 >   * Quantum Observer's Effect
@@ -224,10 +227,10 @@ date:   2020-05-30 22:00:00
 </center>
 <hr/>
 
-> * 📅 **_Week 21 - Interacting with the Quantum Communications (Part 2)_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-21-interacting-with-the-quantum-communications-part-2)
+> * 📅 **_Week 22 - Interacting with the Quantum Communications (Part 2)_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-22-interacting-with-the-quantum-communications-part-2)
 > * **_Introducing the Quantum Communications_**
 >   * Quantum Internet
->       * Quantum Channel
+>       * Quantum Communication Channel
 >       * Quantum Networks
 >           * Initial Assumptions
 >           * Classical Networks vs. Quantum Networks
