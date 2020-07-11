@@ -5278,12 +5278,123 @@
                     </li>
                       
                     <br>
-                      
                     
                     <li>
                         <p style="text-align: justify">
                             In opposite fashion to the <u><i><b>Classical Parallelism</b></i></u>, where <u><i>multiple</i></u> <u><i><b>Classical Circuits</b></i></u>, <u><i>each built to</i></u> <u><i><b>compute</b></i></u> and <u><i><b>evaluate</b></i></u> the <u><i>function</i></u> $f(x)$, are <u><i>executed</i></u> <u><i><b>simultaneosuly</b></i></u>, in the <u><i><b>Quantum Parallelism</b></i></u>, <u><i>one</i></u> <u><i><b>single</b></i></u> <u><i><b>Quantum Circuit</b></i></u> <u><i>is built to</i></u> <u><i><b>compute</b></i></u> and <u><i><b>evaluate</b></i></u> <u><i>function</i></u> $f(x)$ with <u><i>multiple values of the argument</i></u> $x$, <u><i><b>simultaneously</b></i></u>, <u><i>exploiting and taking advantage from the ability</i></u> of a <u><i><b>Quantum Computer</b></i></u> to be in a <u><i><b>Quantum Superposition of States</b></i></u>.
                         </p>  
+                    </li>
+                      
+                    <br>
+                      
+                    <li>
+                        <p style="text-align: justify">
+                            Imagine a given <u><i><b>Classical Function</b></i></u> $f$ <u><i>that receives</i></u> <u><i><b>2 (two) bits</b></i></u> <u><i>as input</i></u>, <u><i>and returns a</i></u> <u><i><b>single 1 (one) bit</b></i></u> <u><i>as output</i></u>:
+                        </p>
+                        <ul>
+                            <li>
+                                $ f(x) : {\{0,1\}}^{2} \Rightarrow \{0,1\} $ 
+                            </li>
+                        </ul>
+                    </li>
+                      
+                    <br>
+                      
+                    <li>
+                        <p style="text-align: justify">
+                            In order to <u><i>evaluate</i></u> $f$ <u><i>on all</i></u> <u><i><b>4 (four) permutations</b></i></u> <u><i>of</i></u> <u><i><b>2 (two) Bits (Classical Bits)</b></i></u>, <u><i>as input</i></u>, <u><i><b>Classical Function</b></i></u> $f$ <u><i>needs to be</i></u> <u><i><b>called 4 (four) times</b></i></u>:
+                        </p>
+                        <ul>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ f(0,0) $
+                                </p>
+                            </li>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ f(0,1) $
+                                </p>
+                            </li>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ f(1,0) $
+                                </p>
+                            </li>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ f(1,1) $
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                      
+                    <br>
+                      
+                    <li>
+                        <p style="text-align: justify">
+                            Per example, imagine a <u><i>simple</i></u> <u><i><b>Classical Function</b></i></u> $f$, <u><i>that performs the behaviour of the</i></u> <u><i><b>XOR (eXclusive OR)</b></i></u> <u><i>operation</i></u>:
+                        </p>
+                        <ul>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ f(0,0) = 0 \oplus 0 = 0 $
+                                </p>
+                            </li>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ f(0,1) = 0 \oplus 1 = 1 $
+                                </p>
+                            </li>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ f(1,0) = 1 \oplus 0 = 1 $
+                                </p>
+                            </li>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ f(1,1) = 1 \oplus 1 = 0 $
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                      
+                    <br>
+                      
+                    <li>
+                        <p style="text-align: justify">
+                            <u><i>Exploiting the principle of the</i></u> <u><i><b>Quantum Parallelism</b></i></u> <u><i>it will allow to evaluate all</i></u> <u><i><b>4 (four)</b></i></u> <u><i>inputs</i></u>, <u><i>in a single</i></u> <u><i><b>1 (one) call</b></i></u> <u><i>to</i></u> $f$.    
+                        </p>
+                    </li>
+                      
+                    <br>
+                      
+                    <li>
+                        <p style="text-align: justify">
+                            This new <u><i><b>Quantum Function</b></i></u>, <u><i>taking advantadge of the</i></u> <u><i><b>Quantum Parallelism</b></i></u>, <u><i>it will be called</i></u> $f'$.    
+                        </p>
+                    </li>
+                      
+                    <br>
+                      
+                    <li>
+                        <p style="text-align: justify">
+                            However, note that <u><i>this</i></u> <u><i><b>Quantum Function</b></i></u> $f'$ <u><i>is</i></u> <u><i><b>not reversible</b></i></u>, and <u><i>all operations on the</i></u> <u><i><b>Qubits (Quantum Bits)</b></i></u> <u><i><b>must be reversible</b></i></u>.
+                        </p>
+                    </li>
+                    
+                    <br>
+                      
+                    <li>
+                        <p style="text-align: justify">
+                            So, first, <u><i>it's necessary to define a</i></u> <u><i><b>reversible</b></i></u> <u><i>version of</i></u> $f'$, as follows:
+                        </p>
+                        <ul>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ U \left | x \right> \left | y \right> \Rightarrow \left | y \oplus f(x) \right> $
+                                </p>
+                            </li>
+                        </ul>
                     </li>
                   </ul>
 
