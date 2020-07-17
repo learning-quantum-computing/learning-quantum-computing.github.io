@@ -5289,11 +5289,11 @@
                       
                     <li>
                         <p style="text-align: justify">
-                            Imagine a given <u><i><b>Classical Function</b></i></u> $f$ <u><i>that receives</i></u> <u><i><b>2 (two) bits</b></i></u> <u><i>as input</i></u>, <u><i>and returns a</i></u> <u><i><b>single 1 (one) bit</b></i></u> <u><i>as output</i></u>:
+                            Imagine a given <u><i><b>Classical Function</b></i></u> $f$ <u><i>that receives</i></u> <u><i><b>2 (two) bits</b></i></u> <u><i>as input</i></u>, <u><i>and returns a</i></u> <u><i><b>2 (two) bits</b></i></u> <u><i>as output</i></u>, like <u><i><b>Bit String Concatenation</b></i></u>:
                         </p>
                         <ul>
                             <li>
-                                $ f(x) : {\{0,1\}}^{2} \Rightarrow \{0,1\} $ 
+                                $ f(x,y) : {\{0,1\}}^{2} \Rightarrow {\{0,1\}}^{2} $ 
                             </li>
                         </ul>
                     </li>
@@ -5302,7 +5302,7 @@
                       
                     <li>
                         <p style="text-align: justify">
-                            In order to <u><i>evaluate</i></u> $f$ <u><i>on all</i></u> <u><i><b>4 (four) permutations</b></i></u> <u><i>of</i></u> <u><i><b>2 (two) Bits (Classical Bits)</b></i></u>, <u><i>as input</i></u>, <u><i><b>Classical Function</b></i></u> $f$ <u><i>needs to be</i></u> <u><i><b>called 4 (four) times</b></i></u>:
+                            In order to <u><i>evaluate</i></u> $f$ <u><i>on all</i></u> <u><i><b>4 (four) permutations</b></i></u> <u><i>of</i></u> <u><i><b>2 (two) Bits (Classical Bits)</b></i></u>, <u><i>as input</i></u>, <u><i><b>Classical Function</b></i></u> $f$ <u><i>needs to be</i></u> <u><i><b>called 4 (four) times</b></i></u> <u><i><b>($ 2 \times 2 = 4)</b></i></u>:
                         </p>
                         <ul>
                             <li>
@@ -5325,6 +5325,47 @@
                                     $ f(1,1) $
                                 </p>
                             </li>
+                        </ul>
+                    </li>
+                      
+                    <br>
+                      
+                    <li>
+                        <p style="text-align: justify">
+                            The output will reproduce something like this:
+                        </p>
+                        <ul>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ f(0,0) = 00 $
+                                </p>
+                            </li>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ f(0,1) = 01 $
+                                </p>
+                            </li>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ f(1,0) = 10 $
+                                </p>
+                            </li>
+                            <li>
+                                <p style="text-align: justify">
+                                    $ f(1,1) = 11 $
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                      
+                    <br>
+                      
+                    <li>
+                        <p style="text-align: justify">
+                            How it's possible to design this function, through a Quantum Circuit (<u><i><b>Quantum Oracle</b></i></u>)??!
+                        </p>
+                        <ul>
+                            <img src="assets/images/schemes/quantum-parallelism-1.png" style="width: 60%; height: 300px" alt="Quantum Parallelism #1">
                         </ul>
                     </li>
                       
