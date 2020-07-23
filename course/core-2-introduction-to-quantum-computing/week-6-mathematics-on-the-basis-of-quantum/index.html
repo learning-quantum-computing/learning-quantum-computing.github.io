@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Mathematics on the Basis of Quantum (Week 6) | Learning Quantum Computing (Online Web Course)</title>
+    <link rel="shortcut icon" href="../../../imgs/PNGs/quantum-atom.png">
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap-responsive.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/pilcrow.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/hljs-github.min.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    processEscapes: true
+                }
+            });
+    </script>
+
+    <script type="text/javascript"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span3" style="position: fixed;" >
+          <ul class="nav nav-list">
+              
+              <div class="core-image">
+                  <img src="../../../imgs/cores-backgrounds/JPGs/learning-quantum-computing-core-2.jpg">
+
+                  <div class="core-bottom-left-description">
+                      <a href="../../../#/2020/01/30/core-2-introduction-to-quantum-computing" style="color: white; font-size: 12pt;"> « Go back </a>
+                  </div>
+
+                  <div class="core-bottom-right-description-big">
+                      Introduction to Quantum Computing
+                  </div>
+
+                  <div class="core-bottom-right-description-small">
+                      Core 2
+                  </div>
+              </div>
+
+              
+              <hr>
+              
+              <h5>📍 <b>Select a topic:</b></h5>
+            
+              <span style="font-size: 10pt">
+                  <ul>
+                      <li><a href="#what-is-linear-algebra"> <b>What is Linear Algebra?</b> </a></li>
+                      <li><a href="#reviewing-linear-algebra"> <b>Reviewing Linear Algebra</b> </a></li>
+                      <li><a href="#proposed-exercises"><b>Proposed Exercises</b> </a></li>
+                  </ul>
+              </span>
+           
+              <hr>
+              
+              <h5>⚠️ <b>Notes:</b></h5>
+              
+              <ul>
+                  <li>
+                    <span style="font-size: 12px !important;">
+                        <b><i>This week will contain theoretical lectures and practical exercises</i></b>
+                    </span>
+                  </li>
+              </ul>
+              
+              <hr>
+              
+              <h5>©️ <b>License:</b></h5>
+              <span style="font-size: 10pt">
+                  <ul>
+                     <li>
+                         <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                             <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+    
+                         </a>
+                    </li>
+                    <li>
+                        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+
+                    </li>              
+                </ul>
+              </span>
+          </ul>
+      </div>
+    
+      <div class="span9 main" style="position:absolute; margin-left: 340pt;">
+          <h1>Mathematics on the Basis of Quantum (Week 6)</h1>
+          
+          <br />
+          
+          <h3>Core 1 - Introduction to Quantum</h3>
+          
+          <br />
+          
+          <h4><img src="../../../imgs/authors/protrait-2d.png" width="40" height="40">&nbsp;&nbsp;Rúben André Barreiro</h4>
+          
+          <hr>
+          
+          <div id="what-is-linear-algebra">
+              <h4><b>What is Linear Algebra?</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p style="text-align: justify">
+                        The <u><i><b>Linear Algebra</b></i></u> <u><i>is a branch of</i></u> <u><i><b>Mathematics</b></i></u> <u><i>that studies</i></u>, in detail, <u><i><b>Systems of Linear Equations</b></i></u>.
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align: justify">
+                        The <u><i><b>Systems of Linear Equations</b></i></u> studied in <u><i><b>Linear Algebra</b></i></u> can be:
+                    </p>
+                    <ul>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Algebraic</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Differential</b></i></u>;
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p style="text-align: justify">
+                        The <u><i><b>Linear Algebra</b></i></u> <u><i>is central to almost all areas of</i></u> <u><i><b>Mathematics</b></i></u>.
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align: justify">
+                        The <u><i><b>Linear Algebra</b></i></u> <u><i>is fundamental in modern presentations of</i></u> <u><i><b>Geometry</b></i></u>, including for defining:
+                    </p>
+                    <ul>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Geometric Objects</b></i></u>, such as:
+                            </p>
+                            <ul>
+                                <li>
+                                    <u><i><b>Point(s)</b></i></u> (<u><i>0 Dimensions</i></u>);
+                                </li>
+                                <li>
+                                    <u><i><b>Lines(s)</b></i></u> (<u><i>1 Dimension</i></u>);  
+                                </li>
+                                <li>
+                                    <u><i><b>Plane(s)</b></i></u> or <u><i><b>Surfaces</b></i></u> (<u><i>2 Dimensions</i></u>);    
+                                </li>
+                                <li>
+                                    <u><i><b>Solid Geometric Object(s)</b></i></u> (<u><i>3 Dimensions</i></u>);
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Geometric Transformations</b></i></u> (also known as <u><i><b>T.S.R. Transformations)</b></i></u>, such as:
+                            </p>
+                            <ul>
+                                <li>
+                                    <u><i><b>Translaction(s)</b></i></u> (<u><i>Moving</i></u> a <u><i><b>Geometric Object</b></i></u> <u><i>from a location to another one</i></u>);
+                                </li>
+                                <li>
+                                    <u><i><b>Scaling(s)</b></i></u> (<u><i>Contract</i></u> or <u><i>Expand</i></u> a <u><i><b>Geometric Object</b></i></u>, <u><i>in terms of</i></u> <u><i><b>size</b></i></u>);
+                                </li>
+                                <li>
+                                    <u><i><b>Rotation(s)</b></i></u> (<u><i>Circular Movement</i></u> <u><i>of a</i></u> <u><i><b>Geometric Object</b></i></u> <u><i>around a location</i></u>);
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                </li>
+                <li>
+                    <p style="text-align: justify">
+                        The <u><i><b>Linear Algebra</b></i></u> <u><i>uses some fundamental</i></u> <u><i><b>concepts</b></i></u> <u><i>and</i></u> <u><i><b>structures</b></i></u> <u><i>of</i></u> <u><i><b>Mathematics</b></i></u>Mathematics, such as:
+                    </p>
+                    <ul>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Vectors</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Vectorial Spaces</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Linear Transformations/Operations</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Systems of Linear Equations</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Matrices</b></i></u>;
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p style="text-align: justify">
+                        The <u><i><b>Linear Algebra</b></i></u> <u><i>is also used in</i></u> <u><i><b>most sciences</b></i></u> <u><i>and</i></u> <u><i><b>fields of engineering</b></i></u>, such as:
+                    </p>
+                    <ul>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Mathematics</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Economics</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Physics</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Mechanics</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Chemistry</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Biochemistry</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Biology</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Electronics</b></i></u>;
+                            </p>
+                        </li>
+                        <li>
+                            <p style="text-align: justify">
+                                <u><i><b>Computing (Computer Science)</b></i></u>;
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p style="text-align: justify">
+                        The <u><i><b>Linear Algebra</b></i></u> <u><i>allows modeling many</i></u> <u><i><b>natural phenomena</b></i></u>, <u><i>and</i></u> <u><i><b>computing efficiently</b></i></u> <u><i>with such</i></u> <u><i><b>models</b></i></u>.
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align: justify">
+                        Many of the <u><i>basic tools of</i></u> <u><i><b>Linear Algebra</b></i></u>, <u><i>particularly those related to the solution of</i></u> <u><i><b>Systems of Linear Equations</b></i></u>, <u><i>date back to antiquity</i></u>, most precisely, <u><i>around</i></u> <u><i><b>II Century</b></i></u>, <u><i>although many of these tools have not been isolated and considered separately until the</i></u> <u><i><b>XVII</b></i></u> <u><i>and</i></u> <u><i><b>XVIII Centuries</b></i></u>.
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align: justify">
+                        This <u><i><b>scientific topic</b></i></u> <u><i>began to take its current form in the middle of the</i></u> <u><i><b>XIX Century</b></i></u>, when <u><i>many of the</i></u>, <u><i><b>abstracted</b></i></u> and <u><i><b>generalized</b></i></u>, <u><i><b>notions</b></i></u> <u><i>and</i></u> <u><i><b>methods</b></i></u>, <u><i>from previous centuries became the</i></u> <u><i><b>basis</b></i></u> <u><i>to the beginning of</i></u> <u><i><b>Abstract Algebra</b></i></u>.
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align: justify">
+                        The <u><i>use of such</i></u> <u><i><b>notions</b></i></u> <u><i>and</i></u> <u><i><b>methods</b></i></u>, <u><i>in</i></u> <u><i><b>General Relativity</b></i></u>, <u><i><b>Statistics</b></i></u> <u><i>and</i></u> <u><i><b>Quantum Mechanics</b></i></u> <u><i>did much to spread the topic beyond the</i></u> <u><i><b>Pure Mathematics</b></i></u>.
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+          <div id="reviewing-linear-algebra">
+              <h4><b>Reviewing Linear Algebra</b></h4>
+              
+              <br />
+              
+              <ul>
+                <li>
+                    <p style="text-align: justify">
+                        
+                    </p>
+                </li>
+              </ul>
+              
+          </div>
+          
+          <br>
+          <hr/>
+          <center>
+              <font size="1">
+                  <b>*** © Rúben André Barreiro - Learning Quantum Computing (Online Web Course) - All rights reserved ***</b>
+              </font>
+          </center>
+          <hr/>
+          <br>
+          
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
