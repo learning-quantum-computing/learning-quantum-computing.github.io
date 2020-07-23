@@ -51,7 +51,7 @@ date:   2020-02-28 22:00:00
 <hr/>
 <br>
 
-> * 📅 **_Week 6 - Mathematics on the Basis of Quantum_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-6-mathematics-on-the-basis-of-quantum)
+> * 📅 **_Week 6 - Mathematics and Logics on the Basis of Quantum_** [(**_Click here_**)](course/core-2-introduction-to-quantum-computing/week-6-mathematics-and-logics-on-the-basis-of-quantum)
 >   * **_The Mathematics Beyond Quantum_**
 >       * What is Linear Algebra?
 >       * Reviewing Linear Algebra
