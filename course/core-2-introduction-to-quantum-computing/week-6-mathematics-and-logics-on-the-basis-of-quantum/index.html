@@ -627,7 +627,7 @@
                         <ul>
                             <li>
                                 <p style="text-align: justify">
-                                    In <u><i><b>Mathematics</b></i></u>, a <u><i><b>Matrix</b></i></u> is a <u><i>rectangular array</i></u> of <u><i><b>numbers</b></i></u>, <u><i><b>symbols</b></i></u>, <u><i><b>expressions</b></i></u> or other <u><i>mathematical objects</i></u>, arranged in <u><i><b>rows</b></i></u> and <u><i><b>columns</b></i></u>, for which <u><i>mathematical operations</i></u>, such as <u><i><b>addition</b></i></u> and <u><i><b>multiplication</b></i></u> are defined.
+                                    In <u><i><b>Mathematics</b></i></u> and <u><i><b>Computing</b></i></u>, a <u><i><b>Matrix</b></i></u> is a concept that represents a <u><i>rectangular array</i></u> of <u><i><b>numbers</b></i></u>, <u><i><b>symbols</b></i></u>, <u><i><b>expressions</b></i></u> or other <u><i>mathematical objects</i></u>, arranged in <u><i><b>rows</b></i></u> and <u><i><b>columns</b></i></u>, for which <u><i>mathematical operations</i></u>, such as <u><i><b>addition</b></i></u> and <u><i><b>multiplication</b></i></u> are defined.
                                 </p>
                             </li>
                             <li>
@@ -936,15 +936,15 @@
                                         <p style="text-align: justify">
                                             $$
                                                 M = \begin{bmatrix} 
-                                                    m_{1,1} & m_{1,1} & \cdots & m_{1,c} \\
-                                                    m_{2,1} & m_{2,1} & \cdots & m_{2,c} \\
+                                                    m_{1,1} & m_{1,2} & \cdots & m_{1,c} \\
+                                                    m_{2,1} & m_{2,2} & \cdots & m_{2,c} \\
                                                     \vdots & \vdots & \ddots & \vdots \\
-                                                    m_{r,1} & m_{r,1} & \cdots & m_{r,c} \\
+                                                    m_{r,1} & m_{r,2} & \cdots & m_{r,c} \\
                                                 \end{bmatrix} = \begin{pmatrix} 
-                                                    m_{1,1} & m_{1,1} & \cdots & m_{1,c} \\
-                                                    m_{2,1} & m_{2,1} & \cdots & m_{2,c} \\
+                                                    m_{1,1} & m_{1,2} & \cdots & m_{1,c} \\
+                                                    m_{2,1} & m_{2,2} & \cdots & m_{2,c} \\
                                                     \vdots & \vdots & \ddots & \vdots \\
-                                                    m_{r,1} & m_{r,1} & \cdots & m_{r,c} \\
+                                                    m_{r,1} & m_{r,2} & \cdots & m_{r,c} \\
                                                 \end{pmatrix}\ = (\ M \in \mathbb{R^{r \times c}} \ ) = (\ m_{i,j} \in \mathbb{R^{r \times c}} \ )\hspace{1000ex}
                                             $$
                                         </p>
@@ -1043,25 +1043,162 @@
 
                             <li>
                                 <p style="text-align: justify">
-                                    For example, the <u><i><b>dimension</b></i></u> of the previously mentioned <u><i><b>Complex Matrix</b></i></u> <u><i><b>$ M_{2} $</b></i></u> is <u><i><b>$ 2 \times 3 $</b></i></u> (<u><i><b>"two by three"</b></i></u>), because there are <u><i><b>two rows</b></i></u> and <u><i><b>three columns</b></i></u>:
+                                    For example, the <u><i><b>dimension</b></i></u> of the previously mentioned <u><i><b>Complex Matrix</b></i></u> <u><i><b>$ M $</b></i></u> is <u><i><b>$ 2 \times 3 $</b></i></u> (<u><i><b>"two by three"</b></i></u>), because there are <u><i><b>two rows</b></i></u> and <u><i><b>three columns</b></i></u>:
                                 </p>
                                 <ul>
                                     <li>
                                         <p style="text-align: justify">
                                             $$
-                                                M_{2} = \begin{bmatrix} 
+                                                M = \begin{bmatrix} 
                                                     6 & -1+2i & i\\
                                                     3-i & 7 & 3\\
-                                                \end{bmatrix}\ (\ M_{2} \in \mathbb{C} \ )\hspace{1000ex}
+                                                \end{bmatrix}\ (\ M \in \mathbb{C} \ )\hspace{1000ex}
                                             $$
                                         </p>
                                     </li>
                                 </ul>
                             </li>
+                            
+                            <br />
+                            
+                            <li>
+                                <p style="text-align: justify">
+                                    <u><i><b>Special Cases</b></i></u>:
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p style="text-align: justify">
+                                            <u><i><b>Row Vector</b></i></u> (or, <u><i><b>Row Matrix</b></i></u>):
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>Matrices</b></i></u> with a <u><i><b>single</b></i></u> <u><i><b>Row</b></i></u> (i.e., with <u><i><b>dimension</b></i></u> <u><i><b>$ 1 \times n $</b></i></u>) are sometimes used to represent a <u><i><b>Vector</b></i></u> and are called <u><i><b>Row Vector</b></i></u> (or, <u><i><b>Row Matrix</b></i></u>):
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <p style="text-align: justify">
+                                                            $$
+                                                                M_{1} = \begin{bmatrix} 
+                                                                    4 & 6 & 8\\
+                                                                \end{bmatrix}\ (\ M_{1} \in \mathbb{R^{1 \times 3}} \ )\hspace{1000ex}
+                                                            $$
+                                                        </p>
+                                                    </li>
+                                                </ul>    
+                                            </li>
+                                        </ul>
+                                        
+                                        <br />
+                                        
+                                        <p style="text-align: justify">
+                                            <u><i><b>Column Vector</b></i></u> (or, <u><i><b>Column Matrix</b></i></u>):
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>Matrices</b></i></u> with a <u><i><b>single</b></i></u> <u><i><b>Column</b></i></u> (i.e., with <u><i><b>dimension</b></i></u> <u><i><b>$ n \times 1 $</b></i></u>) are sometimes used to represent a <u><i><b>Vector</b></i></u> and are called <u><i><b>Column Vector</b></i></u> (or, <u><i><b>Column Matrix</b></i></u>):
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <p style="text-align: justify">
+                                                            $$
+                                                                M_{2} = \begin{bmatrix} 
+                                                                    1 \\
+                                                                    4 \\ 
+                                                                    7\\
+                                                                \end{bmatrix}\ (\ M_{2} \in \mathbb{R^{3 \times 1}} \ )\hspace{1000ex}
+                                                            $$
+                                                        </p>
+                                                    </li>
+                                                </ul>    
+                                            </li>
+                                        </ul>
+                                        
+                                        <br />
+                                        
+                                        <p style="text-align: justify">
+                                            <u><i><b>Square Matrix</b></i></u>:
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>Matrices</b></i></u> with the same <u><i><b>number</b></i></u> of <u><i><b>Rows</b></i></u> and <u><i><b>Columns</b></i></u> (i.e., with <u><i><b>dimension</b></i></u> <u><i><b>$ n \times n $</b></i></u>) are sometimes used to represent a <u><i><b>Linear Transformation</b></i></u> from a <u><i><b>Vector Space</b></i></u> to itself, such as <u><i><b>Reflection</b></i></u>, <u><i><b>Rotation</b></i></u> or <u><i><b>Shearing</b></i></u>:
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <p style="text-align: justify">
+                                                            $$
+                                                                M_{3} = \begin{bmatrix} 
+                                                                    1 & 3 & 5\\
+                                                                    8 & 5 & 2\\ 
+                                                                    7 & 1 & 4\\
+                                                                \end{bmatrix}\ (\ M_{3} \in \mathbb{R^{3 \times 3}} \ )\hspace{1000ex}
+                                                            $$
+                                                        </p>
+                                                    </li>
+                                                </ul>    
+                                            </li>
+                                        </ul>
+                                        
+                                        <br />
+                                        
+                                        <p style="text-align: justify">
+                                            <u><i><b>Empty Matrix</b></i></u>:
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>Matrices</b></i></u> with the <u><i><b>no</b></i></u> <u><i><b>Rows</b></i></u> or <u><i><b>no</b></i></u> <u><i><b>Columns</b></i></u> (i.e., with <u><i><b>dimension</b></i></u> <u><i><b>$ 0 \times n $</b></i></u> or <u><i><b>$ n \times 0 $</b></i></u>) are sometimes used in some contexts, such as, <u><i><b>Computer Algebra Programs</b></i></u>:
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <p style="text-align: justify">
+                                                            $$
+                                                                M_{4} = \begin{bmatrix} 
+                                                                \end{bmatrix}\ (\ M_{4} \in \mathbb{R^{0 \times 0}} \ )\hspace{1000ex}
+                                                            $$
+                                                        </p>
+                                                    </li>
+                                                </ul>    
+                                            </li>
+                                        </ul>
+                                        
+                                        <br />
+                                        
+                                        <p style="text-align: justify">
+                                            <u><i><b>Infinite Matrix</b></i></u>:
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p style="text-align: justify">
+                                                    <u><i><b>Matrices</b></i></u> with <u><i><b>infinite</b></i></u> <u><i><b>number</b></i></u> of <u><i><b>Rows</b></i></u> or <u><i><b>infinite</b></i></u> <u><b><i>number</i></b></u> of <u><i><b>Columns</b></i></u> (i.e., with <u><i><b>dimension</b></i></u> <u><i><b>$ \infinity \times \infinity $</b></i></u> or <u><i><b>$ n \times 0 $</b></i></u>) are sometimes used in some contexts, such as, <u><i><b>Atomic Theory</b></i></u> or <u><i><b>Planetary Theory</b></i></u>:
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <p style="text-align: justify">
+                                                            $$
+                                                                M_{5} = \begin{bmatrix}
+                                                                    m_{5_{1,1}} & m_{5_{1,2}} & \cdots & m_{5_{1,\infinity}} \\
+                                                                    m_{5_{2,1}} & m_{5_{2,2}} & \cdots & m_{5_{2,\infinity}} \\
+                                                                    \vdots & \vdots & \ddots & \vdots \\
+                                                                    m_{5_{\inifinity,1}} & m_{\infinity,2} & \cdots & m_{5_{\infinity,\infinity} \\
+                                                                \end{bmatrix}\ (\ M_{5} \in \mathbb{R^{\infinity \times \infinity}} \ )\hspace{1000ex}
+                                                            $$
+                                                        </p>
+                                                    </li>
+                                                </ul>    
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
-                        
-                        <br />
-                        
+                    </ul>
+                    
+                    <br />
+                    
+                    <ul>
                         <li>
                             <p style="text-align: justify">
                                 If <u><i><b>two Matrices</b></i></u> have the <u><i><b>same dimension</b></i></u> (or, <u><i><b>same size</b></i></u>), i.e., <u><i>each one of those</i></u> <u><i><b>Matrices</b></i></u> has the <u><i><b>same number of rows</b></i></u> and the <u><i><b>same number of columns</b></i></u> <u><i>as the other one</i></u>, then, <u><i>those same</i></u> <u><i><b>two Matrices</b></i></u> <u><i>can be</i></u> <u><i><b>added</b></i></u> or <u><i><b>subtracted</b></i></u>, <u><i><b>element by element</b></i></u>.
